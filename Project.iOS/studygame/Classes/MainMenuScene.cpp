@@ -30,8 +30,7 @@ void MainMenuScene::onEnter()
 
 SEL_MenuHandler MainMenuScene::onResolveCCBCCMenuItemSelector(cocos2d::CCObject *pTarget, const char *pSelectorName)
 {
-
-
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedPlay:", MainMenuScene::pressedPlay);
     return NULL;
 }
 
@@ -73,6 +72,10 @@ void MainMenuScene::ccTouchesEnded(cocos2d::CCSet *pTouches, cocos2d::CCEvent *p
 
 }
 
+void MainMenuScene::pressedPlay(cocos2d::CCObject *pSender)
+{
+    CCLog("PressedPlay");
+}
 
 
 
