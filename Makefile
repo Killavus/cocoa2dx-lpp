@@ -1,14 +1,14 @@
 .PHONY: release clean run gen_makefile
 
 release:
-	cd proj.linux && make
+	cd Project.Linux && make
 
 clean:
-	cd proj.linux && make clean
+	cd Project.Linux && make clean
 
 run:
-	cd proj.linux && make run
+	cd Project.Linux && make run
 
 project_mkf:
-	cd proj.linux && ruby ./generate-makefile.rb > Makefile
+	cd Project.Linux && ruby ./generate-makefile.rb > Makefile
 
