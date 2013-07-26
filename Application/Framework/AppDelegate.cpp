@@ -1,9 +1,8 @@
-#include "AppDelegate.h"
-
 #include <vector>
 #include <string>
 #include <iostream>
 
+#include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "AppMacros.h"
 

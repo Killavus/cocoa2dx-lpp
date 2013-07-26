@@ -1,4 +1,4 @@
-obj/release/Program.o: ../Program.cpp ../Application/AppDelegate.h \
+obj/release/Program.o: ../Program.cpp \
  /usr/include/cocos2dx/cocos2dx/include/cocos2d.h \
  /usr/include/cocos2dx/cocos2dx/include/ccConfig.h \
  /usr/include/cocos2dx/cocos2dx/platform/CCPlatformConfig.h \
@@ -175,4 +175,5 @@ obj/release/Program.o: ../Program.cpp ../Application/AppDelegate.h \
  /usr/include/cocos2dx/cocos2dx/CCScheduler.h \
  /usr/include/cocos2dx/cocos2dx/support/data_support/uthash.h \
  /usr/include/cocos2dx/cocos2dx/support/component/CCComponent.h \
- /usr/include/cocos2dx/cocos2dx/support/component/CCComponentContainer.h
+ /usr/include/cocos2dx/cocos2dx/support/component/CCComponentContainer.h \
+ ../Application/Framework/AppDelegate.h

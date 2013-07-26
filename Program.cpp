@@ -1,10 +1,11 @@
-#include "Application/AppDelegate.h"
-#include "cocos2d.h"
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <string>
+
+#include <cocos2d.h>
+
+#include "Application/Framework/AppDelegate.h"
 
 USING_NS_CC;
 

@@ -1,7 +1,7 @@
 #ifndef __APPMACROS_H__
 #define __APPMACROS_H__
 
-#include "cocos2d.h"
+#include <cocos2d.h>
 
 /* For demonstrating using one design resolution to match different resources,
    or one resource to match different design resolutions.
