@@ -20,7 +20,7 @@ $ make PLATFORM=linux DEBUG=0 all
 
 # Ustawić w Project.Linux/Makefile COCOA_ROOT na odpowiedni katalog.
 # cd <katalog_z_projektem>
-# make generate_mkf
+# make project_mkf
 # make
 ```
 

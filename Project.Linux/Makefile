@@ -2,8 +2,8 @@ EXECUTABLE = LPP
 
 INCLUDES = -I.. -I../Classes
 
-SOURCES = ../Application/AppDelegate.cpp \
-          ../Application/HelloWorldScene.cpp \
+SOURCES = ../Application/Framework/AppDelegate.cpp \
+          ../Application/Framework/HelloWorldScene.cpp \
           ../Program.cpp
 
 COCOS_ROOT = /usr/include/cocos2dx
@@ -23,3 +23,4 @@ $(OBJ_DIR)/%.o: %.cpp $(CORE_MAKEFILE_LIST)
 $(OBJ_DIR)/%.o: ../%.cpp $(CORE_MAKEFILE_LIST)
 	@mkdir -p $(@D)
 	$(LOG_CXX)$(CXX) $(CXXFLAGS) $(INCLUDES) $(DEFINES) $(VISIBILITY) -c $< -o $@
+
