@@ -1,9 +1,10 @@
-= Cocoa2dx - LPP:
+# Cocoa2dx - LPP:
 
 Przepisanie gry z XNA (C#), które robiło problemy w przypadku urządzeń mobilnych na
 Cocos2DX (C++).
 
-== Linux - Kompilacja:
+## Linux - Kompilacja:
+
 ```
 $ wget http://cocos2d-x.googlecode.com/files/cocos2d-x-2.1.4.zip
 $ unzip cocos2d-x-2.1.4.zip
@@ -23,7 +24,8 @@ $ make PLATFORM=linux DEBUG=0 all
 # make
 ```
 
-== Linux - Uruchamianie gry:
+## Linux - Uruchamianie gry:
+
 ```
 cd <katalog_z_projektem>
 ./run.sh
