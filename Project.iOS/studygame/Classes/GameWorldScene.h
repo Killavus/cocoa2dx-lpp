@@ -2,6 +2,7 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "Joystick.h"
 
 class GameWorld : public cocos2d::CCLayer
 {

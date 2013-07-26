@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E22BC36517A33D5600D4D586 /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36417A33D5600D4D586 /* Published-iOS */; };
+		E22BC36817A33ED900D4D586 /* joystick_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36617A33ED900D4D586 /* joystick_background.png */; };
+		E22BC36917A33ED900D4D586 /* joystick_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36717A33ED900D4D586 /* joystick_thumb.png */; };
+		E22BC36C17A33EEB00D4D586 /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E22BC36A17A33EEB00D4D586 /* Joystick.cpp */; };
 		E245313717A30F1D0000A9AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E245313617A30F1D0000A9AE /* QuartzCore.framework */; };
 		E245313917A30F1D0000A9AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E245313817A30F1D0000A9AE /* OpenGLES.framework */; };
 		E245313B17A30F1D0000A9AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E245313A17A30F1D0000A9AE /* OpenAL.framework */; };
@@ -279,13 +283,17 @@
 		E24534CC17A30F230000A9AE /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = E24534CB17A30F230000A9AE /* cpVect.c */; };
 		E24534D417A30F230000A9AE /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E24534D317A30F230000A9AE /* libwebsockets.a */; };
 		E24534DA17A30F230000A9AE /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534D917A30F230000A9AE /* AppDelegate.cpp */; };
-		E24534E417A313110000A9AE /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E24534E317A313110000A9AE /* Published-iOS */; };
 		E24534E917A3139A0000A9AE /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E517A3139A0000A9AE /* MainMenuScene.cpp */; };
 		E24534EA17A3139A0000A9AE /* MainMenuSceneLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */; };
 		E26F917517A320A1006A638B /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F917317A320A1006A638B /* GameWorldScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E22BC36417A33D5600D4D586 /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "Resources/CocosBuilder/StudyGame/Published-iOS"; sourceTree = "<group>"; };
+		E22BC36617A33ED900D4D586 /* joystick_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_background.png; path = Resources/joystick_background.png; sourceTree = "<group>"; };
+		E22BC36717A33ED900D4D586 /* joystick_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_thumb.png; path = Resources/joystick_thumb.png; sourceTree = "<group>"; };
+		E22BC36A17A33EEB00D4D586 /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Joystick.cpp; path = Classes/Joystick.cpp; sourceTree = "<group>"; };
+		E22BC36B17A33EEB00D4D586 /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Joystick.h; path = Classes/Joystick.h; sourceTree = "<group>"; };
 		E245313317A30F1D0000A9AE /* studygame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studygame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E245313617A30F1D0000A9AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E245313817A30F1D0000A9AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -874,7 +882,6 @@
 		E24534D617A30F230000A9AE /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		E24534D817A30F230000A9AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		E24534D917A30F230000A9AE /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		E24534E317A313110000A9AE /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "Resources/CocosBuilder/StudyGame/Published-iOS"; sourceTree = "<group>"; };
 		E24534E517A3139A0000A9AE /* MainMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuScene.cpp; path = Classes/MainMenuScene.cpp; sourceTree = "<group>"; };
 		E24534E617A3139A0000A9AE /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuScene.h; path = Classes/MainMenuScene.h; sourceTree = "<group>"; };
 		E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuSceneLoader.cpp; path = Classes/MainMenuSceneLoader.cpp; sourceTree = "<group>"; };
@@ -952,8 +959,10 @@
 		E245314717A30F1D0000A9AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E24534E317A313110000A9AE /* Published-iOS */,
+				E22BC36417A33D5600D4D586 /* Published-iOS */,
 				E245314817A30F1D0000A9AE /* CloseNormal.png */,
+				E22BC36617A33ED900D4D586 /* joystick_background.png */,
+				E22BC36717A33ED900D4D586 /* joystick_thumb.png */,
 				E245314A17A30F1D0000A9AE /* CloseSelected.png */,
 				E245314C17A30F1D0000A9AE /* Default.png */,
 				E245314E17A30F1D0000A9AE /* HelloWorld.png */,
@@ -2102,6 +2111,8 @@
 		E24534D717A30F230000A9AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E22BC36A17A33EEB00D4D586 /* Joystick.cpp */,
+				E22BC36B17A33EEB00D4D586 /* Joystick.h */,
 				E26F917317A320A1006A638B /* GameWorldScene.cpp */,
 				E26F917417A320A1006A638B /* GameWorldScene.h */,
 				E24534D817A30F230000A9AE /* AppDelegate.h */,
@@ -2168,6 +2179,7 @@
 				E24531FC17A30F1E0000A9AE /* ChangeLog in Resources */,
 				E245314917A30F1D0000A9AE /* CloseNormal.png in Resources */,
 				E245315517A30F1D0000A9AE /* Icon-Small.png in Resources */,
+				E22BC36917A33ED900D4D586 /* joystick_thumb.png in Resources */,
 				E245315117A30F1D0000A9AE /* Icon-72.png in Resources */,
 				E245314F17A30F1D0000A9AE /* HelloWorld.png in Resources */,
 				E245315317A30F1D0000A9AE /* Icon-Small-50.png in Resources */,
@@ -2175,8 +2187,9 @@
 				E245315717A30F1D0000A9AE /* Icon-Small@2x.png in Resources */,
 				E245314D17A30F1D0000A9AE /* Default.png in Resources */,
 				E245314B17A30F1D0000A9AE /* CloseSelected.png in Resources */,
-				E24534E417A313110000A9AE /* Published-iOS in Resources */,
+				E22BC36517A33D5600D4D586 /* Published-iOS in Resources */,
 				E245315B17A30F1D0000A9AE /* Icon@2x.png in Resources */,
+				E22BC36817A33ED900D4D586 /* joystick_background.png in Resources */,
 				E245337017A30F210000A9AE /* project.pbxproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2253,6 +2266,7 @@
 				E245318D17A30F1E0000A9AE /* CCActionTiledGrid.cpp in Sources */,
 				E245343717A30F220000A9AE /* AnimationStateData.cpp in Sources */,
 				E24534AA17A30F230000A9AE /* cpSlideJoint.c in Sources */,
+				E22BC36C17A33EEB00D4D586 /* Joystick.cpp in Sources */,
 				E24532DF17A30F200000A9AE /* CCSpriteBatchNode.cpp in Sources */,
 				E24533E217A30F220000A9AE /* CCControlPotentiometer.cpp in Sources */,
 				E245324117A30F1F0000A9AE /* CCClippingNode.cpp in Sources */,

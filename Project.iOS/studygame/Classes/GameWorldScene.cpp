@@ -62,6 +62,8 @@ bool GameWorld::init()
     // add the label as a child to this layer
     this->addChild(pLabel, 1);
     
+    Joystick* joy = Joystick::create();
+    this->addChild(joy);
     return true;
 }
 

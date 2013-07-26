@@ -24,7 +24,6 @@ void MainMenuScene::onEnter()
     CCLayer::onEnter();
     this->scheduleUpdate();
     this->setTouchEnabled(true);
-
 }
 
 
