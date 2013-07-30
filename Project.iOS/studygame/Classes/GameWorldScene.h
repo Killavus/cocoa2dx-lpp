@@ -3,6 +3,7 @@
 
 #include "cocos2d.h"
 #include "Joystick.h"
+#include "PhysicsWorldScene.h"
 
 class GameWorld : public cocos2d::CCLayer
 {

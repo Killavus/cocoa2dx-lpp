@@ -73,9 +73,19 @@ void MainMenuScene::ccTouchesEnded(cocos2d::CCSet *pTouches, cocos2d::CCEvent *p
 
 void MainMenuScene::pressedPlay(cocos2d::CCObject *pSender)
 {
-    CCLog("PressedPlay");
-    CCScene *gameScene = NameWorld::scene();
-    CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));
+    bool firstGame = CCUserDefault::sharedUserDefault()->getBoolForKey("NowaGra");
+    if (firstGame)
+    {
+        CCLog("PressedPlay");
+        CCScene *gameScene = GameWorld::scene();
+        CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));
+    }
+    else
+    {
+        CCLog("PressedPlay");
+        CCScene *gameScene = NameWorld::scene();
+        CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));    }
+
 }
 
 

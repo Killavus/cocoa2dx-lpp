@@ -28,7 +28,8 @@ bool GameWorld::init()
     {
         return false;
     }
-
+    
+    this->addChild(PsysicsWorld::scene());
     /////////////////////////////
     // 2. add a menu item with "X" image, which is clicked to quit the program
     //    you may modify it.
@@ -51,8 +52,9 @@ bool GameWorld::init()
 
     // add a label shows "Hello World"
     // create and initialize a label
-    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Thonburi", 34);
-
+    CCLabelTTF* pLabel = CCLabelTTF::create("", "Thonburi", 34);
+    std::string ret = CCUserDefault::sharedUserDefault()->getStringForKey("NazwaPostaci");
+    pLabel->setString(CCString::createWithFormat("Witaj %s",ret.c_str())->getCString());
     // ask director the window size
     CCSize size = CCDirector::sharedDirector()->getWinSize();
 

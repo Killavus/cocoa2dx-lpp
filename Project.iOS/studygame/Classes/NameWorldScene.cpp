@@ -79,11 +79,13 @@ void NameWorld::editBoxEditingDidBegin(cocos2d::extension::CCEditBox* editBox)
 void NameWorld::editBoxEditingDidEnd(cocos2d::extension::CCEditBox* editBox)
 {
     CCLog("%p", editBox);
+    CCUserDefault::sharedUserDefault()->setBoolForKey("NowaGra", true);
 }
 
 void NameWorld::editBoxTextChanged(cocos2d::extension::CCEditBox* editBox, const std::string& text)
 {
     CCLog("%p  %s ", editBox, text.c_str());
+    CCUserDefault::sharedUserDefault()->setStringForKey("NazwaPostaci", text.c_str());
 }
 
 void NameWorld::editBoxReturn(CCEditBox* editBox)
