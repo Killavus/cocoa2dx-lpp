@@ -286,6 +286,7 @@
 		E24534E917A3139A0000A9AE /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E517A3139A0000A9AE /* MainMenuScene.cpp */; };
 		E24534EA17A3139A0000A9AE /* MainMenuSceneLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */; };
 		E26F917517A320A1006A638B /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F917317A320A1006A638B /* GameWorldScene.cpp */; };
+		E2A0E73B17A7F7CB0041AFE2 /* NameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -888,6 +889,8 @@
 		E24534E817A3139A0000A9AE /* MainMenuSceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuSceneLoader.h; path = Classes/MainMenuSceneLoader.h; sourceTree = "<group>"; };
 		E26F917317A320A1006A638B /* GameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameWorldScene.cpp; path = Classes/GameWorldScene.cpp; sourceTree = "<group>"; };
 		E26F917417A320A1006A638B /* GameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameWorldScene.h; path = Classes/GameWorldScene.h; sourceTree = "<group>"; };
+		E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NameWorldScene.cpp; path = Classes/NameWorldScene.cpp; sourceTree = "<group>"; };
+		E2A0E73A17A7F7CB0041AFE2 /* NameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameWorldScene.h; path = Classes/NameWorldScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2113,6 +2116,8 @@
 			children = (
 				E22BC36A17A33EEB00D4D586 /* Joystick.cpp */,
 				E22BC36B17A33EEB00D4D586 /* Joystick.h */,
+				E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */,
+				E2A0E73A17A7F7CB0041AFE2 /* NameWorldScene.h */,
 				E26F917317A320A1006A638B /* GameWorldScene.cpp */,
 				E26F917417A320A1006A638B /* GameWorldScene.h */,
 				E24534D817A30F230000A9AE /* AppDelegate.h */,
@@ -2287,6 +2292,7 @@
 				E245343417A30F220000A9AE /* AnimationState.cpp in Sources */,
 				E245318417A30F1D0000A9AE /* CCActionManager.cpp in Sources */,
 				E24533C617A30F210000A9AE /* CCComAttribute.cpp in Sources */,
+				E2A0E73B17A7F7CB0041AFE2 /* NameWorldScene.cpp in Sources */,
 				E245334017A30F210000A9AE /* CCTileMapAtlas.cpp in Sources */,
 				E245322D17A30F1F0000A9AE /* CCScene.cpp in Sources */,
 				E24534C217A30F230000A9AE /* cpSpaceHash.c in Sources */,

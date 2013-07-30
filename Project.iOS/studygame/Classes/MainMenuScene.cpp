@@ -74,7 +74,7 @@ void MainMenuScene::ccTouchesEnded(cocos2d::CCSet *pTouches, cocos2d::CCEvent *p
 void MainMenuScene::pressedPlay(cocos2d::CCObject *pSender)
 {
     CCLog("PressedPlay");
-    CCScene *gameScene = GameWorld::scene();
+    CCScene *gameScene = NameWorld::scene();
     CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));
 }
 
