@@ -21,6 +21,7 @@ using namespace cocos2d::extension;
 class MainMenuScene : public cocos2d::CCLayer,public cocos2d::extension::CCBMemberVariableAssigner, public cocos2d::extension::CCBSelectorResolver
 {
 private:
+    CCLabelTTF* playLabel;
     
 public:
     static CCScene* scene();

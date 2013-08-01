@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20CCE3817AACB2A0000A2A5 /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E20CCE3717AACB2A0000A2A5 /* Published-iOS */; };
+		E20CCE3B17AACD530000A2A5 /* Font in Resources */ = {isa = PBXBuildFile; fileRef = E20CCE3A17AACD530000A2A5 /* Font */; };
 		E20D082717A84CB3006AB5C2 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D059417A84CB2006AB5C2 /* b2BroadPhase.cpp */; };
 		E20D082817A84CB3006AB5C2 /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D059617A84CB2006AB5C2 /* b2CollideCircle.cpp */; };
 		E20D082917A84CB3006AB5C2 /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D059717A84CB2006AB5C2 /* b2CollideEdge.cpp */; };
@@ -307,7 +309,6 @@
 		E20D0D5417A84DFF006AB5C2 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = E20D0D3217A84DFF006AB5C2 /* cpVect.c */; };
 		E20D0D5717A85208006AB5C2 /* PhysicsWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D0D5517A85208006AB5C2 /* PhysicsWorldScene.cpp */; };
 		E20D0D5917A8527B006AB5C2 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = E20D0D5817A8527B006AB5C2 /* blocks.png */; };
-		E20D0D5B17A85357006AB5C2 /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E20D0D5A17A85357006AB5C2 /* Published-iOS */; };
 		E22BC36817A33ED900D4D586 /* joystick_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36617A33ED900D4D586 /* joystick_background.png */; };
 		E22BC36917A33ED900D4D586 /* joystick_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36717A33ED900D4D586 /* joystick_thumb.png */; };
 		E22BC36C17A33EEB00D4D586 /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E22BC36A17A33EEB00D4D586 /* Joystick.cpp */; };
@@ -351,6 +352,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E20CCE3717AACB2A0000A2A5 /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "Resources/Published-iOS"; sourceTree = "<group>"; };
+		E20CCE3A17AACD530000A2A5 /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
 		E20D059217A84CB2006AB5C2 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		E20D059417A84CB2006AB5C2 /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
 		E20D059517A84CB2006AB5C2 /* b2BroadPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BroadPhase.h; sourceTree = "<group>"; };
@@ -1004,7 +1007,6 @@
 		E20D0D5517A85208006AB5C2 /* PhysicsWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicsWorldScene.cpp; path = Classes/PhysicsWorldScene.cpp; sourceTree = "<group>"; };
 		E20D0D5617A85208006AB5C2 /* PhysicsWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicsWorldScene.h; path = Classes/PhysicsWorldScene.h; sourceTree = "<group>"; };
 		E20D0D5817A8527B006AB5C2 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
-		E20D0D5A17A85357006AB5C2 /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Published-iOS"; sourceTree = "<group>"; };
 		E22BC36617A33ED900D4D586 /* joystick_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_background.png; path = Resources/joystick_background.png; sourceTree = "<group>"; };
 		E22BC36717A33ED900D4D586 /* joystick_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_thumb.png; path = Resources/joystick_thumb.png; sourceTree = "<group>"; };
 		E22BC36A17A33EEB00D4D586 /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Joystick.cpp; path = Classes/Joystick.cpp; sourceTree = "<group>"; };
@@ -2382,7 +2384,8 @@
 		E245314717A30F1D0000A9AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E20D0D5A17A85357006AB5C2 /* Published-iOS */,
+				E20CCE3A17AACD530000A2A5 /* Font */,
+				E20CCE3717AACB2A0000A2A5 /* Published-iOS */,
 				E245314817A30F1D0000A9AE /* CloseNormal.png */,
 				E22BC36617A33ED900D4D586 /* joystick_background.png */,
 				E22BC36717A33ED900D4D586 /* joystick_thumb.png */,
@@ -2514,6 +2517,7 @@
 				E245315517A30F1D0000A9AE /* Icon-Small.png in Resources */,
 				E22BC36917A33ED900D4D586 /* joystick_thumb.png in Resources */,
 				E20D0D3817A84DFF006AB5C2 /* CMakeLists.txt in Resources */,
+				E20CCE3B17AACD530000A2A5 /* Font in Resources */,
 				E245315117A30F1D0000A9AE /* Icon-72.png in Resources */,
 				E245314F17A30F1D0000A9AE /* HelloWorld.png in Resources */,
 				E245315317A30F1D0000A9AE /* Icon-Small-50.png in Resources */,
@@ -2521,13 +2525,13 @@
 				E245315717A30F1D0000A9AE /* Icon-Small@2x.png in Resources */,
 				E245314D17A30F1D0000A9AE /* Default.png in Resources */,
 				E20D087917A84CB3006AB5C2 /* ChangeLog in Resources */,
+				E20CCE3817AACB2A0000A2A5 /* Published-iOS in Resources */,
 				E245314B17A30F1D0000A9AE /* CloseSelected.png in Resources */,
 				E20D0D3517A84DFF006AB5C2 /* LICENSE.txt in Resources */,
 				E20D087A17A84CB3006AB5C2 /* CMakeLists.txt in Resources */,
 				E245315B17A30F1D0000A9AE /* Icon@2x.png in Resources */,
 				E20D0D3617A84DFF006AB5C2 /* README.txt in Resources */,
 				E22BC36817A33ED900D4D586 /* joystick_background.png in Resources */,
-				E20D0D5B17A85357006AB5C2 /* Published-iOS in Resources */,
 				E20D0D3417A84DFF006AB5C2 /* chipmunk-docs.html in Resources */,
 				E20D0D5917A8527B006AB5C2 /* blocks.png in Resources */,
 			);

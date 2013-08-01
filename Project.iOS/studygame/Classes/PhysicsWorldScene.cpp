@@ -76,7 +76,7 @@ PsysicsWorld::PsysicsWorld()
     // init physics
     this->initPhysics();
 
-    CCSpriteBatchNode *parent = CCSpriteBatchNode::create("blocks.png", 100);
+    CCSpriteBatchNode *parent = CCSpriteBatchNode::create("button1_inactive.png", 100);
     m_pSpriteTexture = parent->getTexture();
 
     addChild(parent, 0, kTagParentNode);
