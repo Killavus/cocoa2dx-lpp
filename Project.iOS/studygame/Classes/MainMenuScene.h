@@ -41,6 +41,8 @@ public:
     
     void update(float dt);
     void pressedPlay(cocos2d::CCObject *pSender);
+    void pressedOption(cocos2d::CCObject *pSender);
+    void pressedOptionBack(cocos2d::CCObject *pSender);
 
 };
 

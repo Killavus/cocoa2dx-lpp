@@ -31,6 +31,9 @@ void MainMenuScene::onEnter()
 SEL_MenuHandler MainMenuScene::onResolveCCBCCMenuItemSelector(cocos2d::CCObject *pTarget, const char *pSelectorName)
 {
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedPlay:", MainMenuScene::pressedPlay);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedOption:", MainMenuScene::pressedOption);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedOptionBack:", MainMenuScene::pressedOptionBack);
+
     return NULL;
 }
 
@@ -90,5 +93,22 @@ void MainMenuScene::pressedPlay(cocos2d::CCObject *pSender)
 
 }
 
+void MainMenuScene::pressedOption(cocos2d::CCObject *pSender)
+{
+    CCLog("działa");
+    CCNodeLoaderLibrary* nodeLoaderLibrary;
+    nodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
+    
+    CCBReader* ccbReader = new CCBReader(nodeLoaderLibrary);
+    
+    CCNode* optionNode = ccbReader->readNodeGraphFromFile("OptionScene.ccbi",this);
+    optionNode->setTag(69);
+    this->addChild(optionNode);
+}
+
+void MainMenuScene::pressedOptionBack(cocos2d::CCObject *pSender)
+{
+    this->removeChildByTag(69);
+}
 
 
