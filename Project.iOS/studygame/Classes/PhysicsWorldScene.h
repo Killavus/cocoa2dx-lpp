@@ -10,6 +10,7 @@
 // When you import this file, you import all the cocos2d classes
 #include "cocos2d.h"
 #include "Box2D.h"
+#include "Joystick.h"
 
 class PhysicsSprite : public cocos2d::CCSprite
 {
@@ -18,8 +19,13 @@ public:
     void setPhysicsBody(b2Body * body);
     virtual bool isDirty(void);
     virtual cocos2d::CCAffineTransform nodeToParentTransform(void);
+
+    void update(float dt);
+    void setJoystick( Joystick *joystick );
+    
 private:
     b2Body* m_pBody;    // strong ref
+    Joystick* m_pJoystick;
 };
 
 class PsysicsWorld : public cocos2d::CCLayer {
@@ -35,11 +41,11 @@ public:
     void addNewSpriteAtPosition(cocos2d::CCPoint p);
 
     virtual void draw();
-    virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     void update(float dt);
     
 private:
     b2World* world;
     cocos2d::CCTexture2D* m_pSpriteTexture; // weak ref
+    Joystick* joy;
 };
 

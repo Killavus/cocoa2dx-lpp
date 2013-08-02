@@ -36,6 +36,25 @@ bool PhysicsSprite::isDirty(void)
     return true;
 }
 
+void PhysicsSprite::update(float dt)
+{
+    float vx = m_pJoystick->getVelocity().x;
+    float vy = m_pJoystick->getVelocity().y;
+    
+    // set ball velocity by Joystick
+    m_pBody->SetLinearVelocity(b2Vec2(vx,vy)+m_pBody->GetLinearVelocity());
+    
+    // rotation ball by direction
+    b2Vec2 vec = m_pBody->GetLinearVelocity();
+    //pPlayer->setRotation(-1*CC_RADIANS_TO_DEGREES(ccpToAngle(CCPointMake(vec.x, vec.y))));
+    
+}
+
+void PhysicsSprite::setJoystick( Joystick *joystick )
+{
+    m_pJoystick = joystick;
+}
+
 // returns the transform matrix according the Chipmunk Body values
 CCAffineTransform PhysicsSprite::nodeToParentTransform(void)
 {
@@ -67,6 +86,8 @@ CCAffineTransform PhysicsSprite::nodeToParentTransform(void)
     return m_sTransform;
 }
 
+
+
 PsysicsWorld::PsysicsWorld()
 {
     setTouchEnabled( true );
@@ -84,11 +105,6 @@ PsysicsWorld::PsysicsWorld()
 
     addNewSpriteAtPosition(ccp(s.width/2, s.height/2));
 
-    CCLabelTTF *label = CCLabelTTF::create("Tap screen", "Marker Felt", 32);
-    addChild(label, 0);
-    label->setColor(ccc3(0,0,255));
-    label->setPosition(ccp( s.width/2, s.height-50));
-    
     scheduleUpdate();
 }
 
@@ -102,18 +118,20 @@ PsysicsWorld::~PsysicsWorld()
 
 void PsysicsWorld::initPhysics()
 {
-
+    joy = Joystick::create();
+    this->addChild(joy);
+    
     CCSize s = CCDirector::sharedDirector()->getWinSize();
 
     b2Vec2 gravity;
-    gravity.Set(0.0f, -10.0f);
+    gravity.Set(0.0f, 0.0f);
     world = new b2World(gravity);
 
     // Do we want to let bodies sleep?
     world->SetAllowSleeping(true);
-
+    
     world->SetContinuousPhysics(true);
-
+    
 //     m_debugDraw = new GLESDebugDraw( PTM_RATIO );
 //     world->SetDebugDraw(m_debugDraw);
 
@@ -179,12 +197,9 @@ void PsysicsWorld::addNewSpriteAtPosition(CCPoint p)
     CCLOG("Add sprite %0.2f x %02.f",p.x,p.y);
     CCNode* parent = getChildByTag(kTagParentNode);
     
-    //We have a 64x64 sprite sheet with 4 different 32x32 images.  The following code is
-    //just randomly picking one of the images
-    int idx = (CCRANDOM_0_1() > .5 ? 0:1);
-    int idy = (CCRANDOM_0_1() > .5 ? 0:1);
     PhysicsSprite *sprite = new PhysicsSprite();
-    sprite->initWithTexture(m_pSpriteTexture, CCRectMake(32 * idx,32 * idy,32,32));
+    sprite->initWithTexture(m_pSpriteTexture);
+    
     sprite->autorelease();
     
     parent->addChild(sprite);
@@ -211,6 +226,10 @@ void PsysicsWorld::addNewSpriteAtPosition(CCPoint p)
     body->CreateFixture(&fixtureDef);
     
     sprite->setPhysicsBody(body);
+    sprite->setJoystick(joy);
+    
+    sprite->scheduleUpdate();
+    
 }
 
 
@@ -237,27 +256,6 @@ void PsysicsWorld::update(float dt)
             myActor->setPosition( CCPointMake( b->GetPosition().x * PTM_RATIO, b->GetPosition().y * PTM_RATIO) );
             myActor->setRotation( -1 * CC_RADIANS_TO_DEGREES(b->GetAngle()) );
         }    
-    }
-}
-
-void PsysicsWorld::ccTouchesEnded(CCSet* touches, CCEvent* event)
-{
-    //Add a new body/atlas sprite at the touched location
-    CCSetIterator it;
-    CCTouch* touch;
-    
-    for( it = touches->begin(); it != touches->end(); it++) 
-    {
-        touch = (CCTouch*)(*it);
-        
-        if(!touch)
-            break;
-        
-        CCPoint location = touch->getLocationInView();
-        
-        location = CCDirector::sharedDirector()->convertToGL(location);
-        
-        addNewSpriteAtPosition( location );
     }
 }
 
