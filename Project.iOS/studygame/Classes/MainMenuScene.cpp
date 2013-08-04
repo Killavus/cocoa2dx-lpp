@@ -32,6 +32,8 @@ SEL_MenuHandler MainMenuScene::onResolveCCBCCMenuItemSelector(cocos2d::CCObject 
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedPlay:", MainMenuScene::pressedPlay);
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedOption:", MainMenuScene::pressedOption);
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedOptionBack:", MainMenuScene::pressedOptionBack);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedResetGame:", MainMenuScene::resetGame);
+
 
     return NULL;
 }
@@ -110,4 +112,10 @@ void MainMenuScene::pressedOptionBack(cocos2d::CCObject *pSender)
     this->removeChildByTag(69);
 }
 
+void MainMenuScene::resetGame(cocos2d::CCObject *pSender)
+{
+    CCLog("działa");
+
+    CCUserDefault::sharedUserDefault()->setBoolForKey("NowaGra", false);
+}
 

@@ -22,7 +22,9 @@ public:
 
     void update(float dt);
     void setJoystick( Joystick *joystick );
-    
+    void kick();
+    void stop();
+
 private:
     b2Body* m_pBody;    // strong ref
     Joystick* m_pJoystick;
@@ -42,10 +44,13 @@ public:
 
     virtual void draw();
     void update(float dt);
-    
+    void menuCloseCallback(CCObject* pSender);
+    void ccTouchesEnded(CCSet* touches, CCEvent* event);
+
 private:
     b2World* world;
     cocos2d::CCTexture2D* m_pSpriteTexture; // weak ref
     Joystick* joy;
+    PhysicsSprite *sprite;
 };
 

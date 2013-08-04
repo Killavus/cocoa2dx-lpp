@@ -43,6 +43,7 @@ public:
     void pressedPlay(cocos2d::CCObject *pSender);
     void pressedOption(cocos2d::CCObject *pSender);
     void pressedOptionBack(cocos2d::CCObject *pSender);
+    void resetGame(cocos2d::CCObject *pSender);
 
 };
 

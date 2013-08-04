@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E20CCE3B17AACD530000A2A5 /* Font in Resources */ = {isa = PBXBuildFile; fileRef = E20CCE3A17AACD530000A2A5 /* Font */; };
-		E20CCE4117AAD3990000A2A5 /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E20CCE4017AAD3990000A2A5 /* Published-iOS */; };
 		E20D082717A84CB3006AB5C2 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D059417A84CB2006AB5C2 /* b2BroadPhase.cpp */; };
 		E20D082817A84CB3006AB5C2 /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D059617A84CB2006AB5C2 /* b2CollideCircle.cpp */; };
 		E20D082917A84CB3006AB5C2 /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D059717A84CB2006AB5C2 /* b2CollideEdge.cpp */; };
@@ -338,6 +337,7 @@
 		E24534E917A3139A0000A9AE /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E517A3139A0000A9AE /* MainMenuScene.cpp */; };
 		E24534EA17A3139A0000A9AE /* MainMenuSceneLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */; };
 		E26F917517A320A1006A638B /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F917317A320A1006A638B /* GameWorldScene.cpp */; };
+		E299D0D217AE827D0017FD8A /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E299D0D117AE827C0017FD8A /* Published-iOS */; };
 		E2A0E73B17A7F7CB0041AFE2 /* NameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */; };
 /* End PBXBuildFile section */
 
@@ -353,7 +353,6 @@
 
 /* Begin PBXFileReference section */
 		E20CCE3A17AACD530000A2A5 /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
-		E20CCE4017AAD3990000A2A5 /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "../../CocosBuilder/StudyGame/Published-iOS"; sourceTree = "<group>"; };
 		E20D059217A84CB2006AB5C2 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		E20D059417A84CB2006AB5C2 /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
 		E20D059517A84CB2006AB5C2 /* b2BroadPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BroadPhase.h; sourceTree = "<group>"; };
@@ -1046,6 +1045,7 @@
 		E24534E817A3139A0000A9AE /* MainMenuSceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuSceneLoader.h; path = Classes/MainMenuSceneLoader.h; sourceTree = "<group>"; };
 		E26F917317A320A1006A638B /* GameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameWorldScene.cpp; path = Classes/GameWorldScene.cpp; sourceTree = "<group>"; };
 		E26F917417A320A1006A638B /* GameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameWorldScene.h; path = Classes/GameWorldScene.h; sourceTree = "<group>"; };
+		E299D0D117AE827C0017FD8A /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "../../CocosBuilder/StudyGame/Published-iOS"; sourceTree = "<group>"; };
 		E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NameWorldScene.cpp; path = Classes/NameWorldScene.cpp; sourceTree = "<group>"; };
 		E2A0E73A17A7F7CB0041AFE2 /* NameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameWorldScene.h; path = Classes/NameWorldScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2384,7 +2384,7 @@
 		E245314717A30F1D0000A9AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E20CCE4017AAD3990000A2A5 /* Published-iOS */,
+				E299D0D117AE827C0017FD8A /* Published-iOS */,
 				E20CCE3A17AACD530000A2A5 /* Font */,
 				E245314817A30F1D0000A9AE /* CloseNormal.png */,
 				E22BC36617A33ED900D4D586 /* joystick_background.png */,
@@ -2525,7 +2525,7 @@
 				E245315717A30F1D0000A9AE /* Icon-Small@2x.png in Resources */,
 				E245314D17A30F1D0000A9AE /* Default.png in Resources */,
 				E20D087917A84CB3006AB5C2 /* ChangeLog in Resources */,
-				E20CCE4117AAD3990000A2A5 /* Published-iOS in Resources */,
+				E299D0D217AE827D0017FD8A /* Published-iOS in Resources */,
 				E245314B17A30F1D0000A9AE /* CloseSelected.png in Resources */,
 				E20D0D3517A84DFF006AB5C2 /* LICENSE.txt in Resources */,
 				E20D087A17A84CB3006AB5C2 /* CMakeLists.txt in Resources */,

@@ -35,6 +35,119 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
+						<string>ResetGame</string>
+						<key>memberVarAssignmentName</key>
+						<string></string>
+						<key>memberVarAssignmentType</key>
+						<integer>0</integer>
+						<key>properties</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>93</real>
+									<real>154</real>
+									<integer>1</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>anchorPoint</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>1</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>scale</string>
+								<key>type</key>
+								<string>ScaleLock</string>
+								<key>value</key>
+								<array>
+									<real>2.2999999523162842</real>
+									<real>2</real>
+									<false/>
+									<integer>1</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>ignoreAnchorPointForPosition</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<false/>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>block</string>
+								<key>type</key>
+								<string>Block</string>
+								<key>value</key>
+								<array>
+									<string>pressedResetGame:</string>
+									<integer>2</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>isEnabled</string>
+								<key>type</key>
+								<string>Check</string>
+								<key>value</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>normalSpriteFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string>Graphics/blank_background.png</string>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>selectedSpriteFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string>Graphics/blank_background.png</string>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>disabledSpriteFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string>Graphics/blank_background.png</string>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>baseClass</key>
+						<string>CCMenuItemImage</string>
+						<key>children</key>
+						<array/>
+						<key>customClass</key>
+						<string></string>
+						<key>displayName</key>
 						<string>CCMenuItemImage</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
@@ -162,9 +275,9 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>141</real>
-									<real>197</real>
-									<integer>0</integer>
+									<real>29.375</real>
+									<real>61.5625</real>
+									<integer>4</integer>
 								</array>
 							</dict>
 							<dict>
@@ -275,9 +388,9 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>236</real>
-									<real>196</real>
-									<integer>0</integer>
+									<real>49.166667938232422</real>
+									<real>61.25</real>
+									<integer>4</integer>
 								</array>
 							</dict>
 							<dict>
@@ -388,9 +501,9 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>329</real>
-									<real>196.5</real>
-									<integer>0</integer>
+									<real>68.541664123535156</real>
+									<real>61.40625</real>
+									<integer>4</integer>
 								</array>
 							</dict>
 							<dict>
@@ -719,7 +832,7 @@
 						<key>value</key>
 						<array>
 							<real>50.416667938232422</real>
-							<real>45.3125</real>
+							<real>45.625</real>
 							<integer>4</integer>
 						</array>
 					</dict>

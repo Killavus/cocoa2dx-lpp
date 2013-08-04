@@ -13,10 +13,6 @@ using namespace CocosDenshion;
 
 #define PTM_RATIO 32
 
-enum {
-    kTagParentNode = 1,
-};
-
 PhysicsSprite::PhysicsSprite()
 : m_pBody(NULL)
 {
@@ -42,17 +38,33 @@ void PhysicsSprite::update(float dt)
     float vy = m_pJoystick->getVelocity().y;
     
     // set ball velocity by Joystick
+    if(vx<0) {
+        this->setFlipX(true);
+    } else if(vx>0) {
+        this->setFlipX(false);
+    }
     m_pBody->SetLinearVelocity(b2Vec2(vx,vy)+m_pBody->GetLinearVelocity());
     
     // rotation ball by direction
     b2Vec2 vec = m_pBody->GetLinearVelocity();
-    //pPlayer->setRotation(-1*CC_RADIANS_TO_DEGREES(ccpToAngle(CCPointMake(vec.x, vec.y))));
+    //this->setRotation(-1*CC_RADIANS_TO_DEGREES(ccpToAngle(CCPointMake(vec.x, vec.y))));
     
 }
 
 void PhysicsSprite::setJoystick( Joystick *joystick )
 {
     m_pJoystick = joystick;
+}
+
+void PhysicsSprite::kick()
+{
+    b2Vec2 force = b2Vec2(30,30);
+    m_pBody->ApplyLinearImpulse(force,m_pBody->GetPosition());
+}
+
+void PhysicsSprite::stop()
+{
+    m_pBody->SetLinearVelocity(b2Vec2(0,0));
 }
 
 // returns the transform matrix according the Chipmunk Body values
@@ -97,15 +109,21 @@ PsysicsWorld::PsysicsWorld()
     // init physics
     this->initPhysics();
 
-    CCSpriteBatchNode *parent = CCSpriteBatchNode::create("button1_inactive.png", 100);
-    m_pSpriteTexture = parent->getTexture();
-
-    addChild(parent, 0, kTagParentNode);
-
-
     addNewSpriteAtPosition(ccp(s.width/2, s.height/2));
 
     scheduleUpdate();
+    
+    CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
+                                                          "button1_inactive.png",
+                                                          "button1_inactive.png",
+                                                          this,
+                                                          menu_selector(PsysicsWorld::menuCloseCallback) );
+    pCloseItem->setPosition( ccp(CCDirector::sharedDirector()->getWinSize().width - 50, 50) );
+    
+    // create menu, it's an autorelease object
+    CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
+    pMenu->setPosition( CCPointZero );
+    this->addChild(pMenu, 1);
 }
 
 PsysicsWorld::~PsysicsWorld()
@@ -195,14 +213,15 @@ void PsysicsWorld::draw()
 void PsysicsWorld::addNewSpriteAtPosition(CCPoint p)
 {
     CCLOG("Add sprite %0.2f x %02.f",p.x,p.y);
-    CCNode* parent = getChildByTag(kTagParentNode);
     
-    PhysicsSprite *sprite = new PhysicsSprite();
+    CCSprite *image = CCSprite::create("0.png");
+    m_pSpriteTexture = image->getTexture();
+    sprite = new PhysicsSprite();
     sprite->initWithTexture(m_pSpriteTexture);
     
     sprite->autorelease();
     
-    parent->addChild(sprite);
+    this->addChild(sprite);
     
     sprite->setPosition( CCPointMake( p.x, p.y) );
     
@@ -230,8 +249,25 @@ void PsysicsWorld::addNewSpriteAtPosition(CCPoint p)
     
     sprite->scheduleUpdate();
     
+    
 }
 
+void PsysicsWorld::ccTouchesEnded(CCSet* touches, CCEvent* event)
+{
+    //Add a new body/atlas sprite at the touched location
+    CCSetIterator it;
+    CCTouch* touch;
+    
+    for( it = touches->begin(); it != touches->end(); it++)
+    {
+        touch = (CCTouch*)(*it);
+        
+        if(!touch)
+            break;
+        
+        sprite->stop();
+    }
+}
 
 void PsysicsWorld::update(float dt)
 {
@@ -257,6 +293,11 @@ void PsysicsWorld::update(float dt)
             myActor->setRotation( -1 * CC_RADIANS_TO_DEGREES(b->GetAngle()) );
         }    
     }
+}
+
+void PsysicsWorld::menuCloseCallback(CCObject* pSender)
+{
+    sprite->kick();
 }
 
 CCScene* PsysicsWorld::scene()
