@@ -9,7 +9,8 @@
 #include "ContactListener.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-CContactListener::CContactListener(): _contacts() 
+CContactListener::CContactListener(): _contacts(),
+pEngine(NULL)
 {
 }
 
@@ -21,12 +22,13 @@ void CContactListener::BeginContact(b2Contact* contact)
 {
     // We need to copy out the data because the b2Contact passed in
     // is reused.
-    CCLuaEngine* pEngine = CCLuaEngine::defaultEngine();
-    CCScriptEngineManager::sharedManager()->setScriptEngine(pEngine);
-    
-    std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello.lua");
-    pEngine->executeScriptFile(path.c_str());
-    
+    if (pEngine==NULL){
+        pEngine = CCLuaEngine::defaultEngine();
+        CCScriptEngineManager::sharedManager()->setScriptEngine(pEngine);
+        
+        std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello.lua");
+        pEngine->executeScriptFile(path.c_str());
+    }
     ContactData Contact = { contact->GetFixtureA(), contact->GetFixtureB() };
     _contacts.push_back(Contact);
      

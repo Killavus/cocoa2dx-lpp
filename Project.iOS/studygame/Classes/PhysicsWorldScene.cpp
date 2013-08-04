@@ -74,7 +74,7 @@ void PsysicsWorld::initPhysics()
     //        flags += b2Draw::e_centerOfMassBit;
     m_debugDraw->SetFlags(flags);
 
-    /*
+    
     // Define the ground body.
     b2BodyDef groundBodyDef;
     groundBodyDef.position.Set(0, 0); // bottom-left corner
@@ -103,7 +103,7 @@ void PsysicsWorld::initPhysics()
     // right
     groundBox.Set(b2Vec2(s.width/PTM_RATIO,s.height/PTM_RATIO), b2Vec2(s.width/PTM_RATIO,0));
     groundBody->CreateFixture(&groundBox,0);
-     */
+     
     
     CContactListener* contactListener = new CContactListener();
     world->SetContactListener(contactListener);

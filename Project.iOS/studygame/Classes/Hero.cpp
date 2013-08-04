@@ -38,7 +38,6 @@ void Hero::setWorld(b2World * world)
     fixtureDef.shape = &dynamicBox;
     fixtureDef.density = 1.0f;
     fixtureDef.friction = 0.3f;
-    fixtureDef.isSensor = true;
     m_pBody->CreateFixture(&fixtureDef);
 }
 
