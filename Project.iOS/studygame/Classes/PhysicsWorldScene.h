@@ -14,6 +14,7 @@
 #include "Hero.h"
 #include "Npc.h"
 #include "ContactListener.h"
+#include "GLES-Render.h"
 
 class PsysicsWorld : public cocos2d::CCLayer {
 public:
@@ -39,5 +40,7 @@ private:
     Hero *hero;
     Npc* npc;
     CContactListener* contactListener;
+    GLESDebugDraw *m_debugDraw;
+
 };
 

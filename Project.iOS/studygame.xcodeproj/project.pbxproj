@@ -341,6 +341,7 @@
 		E299D0D217AE827D0017FD8A /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E299D0D117AE827C0017FD8A /* Published-iOS */; };
 		E299D0D517AEBB2F0017FD8A /* Option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E299D0D317AEBB2F0017FD8A /* Option.cpp */; };
 		E2A0E73B17A7F7CB0041AFE2 /* NameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */; };
+		E2C88C4417AEEBBE003C2E41 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2C88C4217AEEBBE003C2E41 /* GLES-Render.cpp */; };
 		E2F1D6B417AED15B005F4B58 /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */; };
 		E2F1D6B817AED1B0005F4B58 /* Npc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6B617AED1B0005F4B58 /* Npc.cpp */; };
 		E2F1D6E617AEDFEB005F4B58 /* CCBProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6BB17AEDFEB005F4B58 /* CCBProxy.cpp */; };
@@ -1076,6 +1077,8 @@
 		E299D0D417AEBB2F0017FD8A /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Option.h; path = Classes/Option.h; sourceTree = "<group>"; };
 		E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NameWorldScene.cpp; path = Classes/NameWorldScene.cpp; sourceTree = "<group>"; };
 		E2A0E73A17A7F7CB0041AFE2 /* NameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameWorldScene.h; path = Classes/NameWorldScene.h; sourceTree = "<group>"; };
+		E2C88C4217AEEBBE003C2E41 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "GLES-Render.cpp"; path = "Classes/GLES-Render.cpp"; sourceTree = "<group>"; };
+		E2C88C4317AEEBBE003C2E41 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLES-Render.h"; path = "Classes/GLES-Render.h"; sourceTree = "<group>"; };
 		E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContactListener.cpp; path = Classes/ContactListener.cpp; sourceTree = "<group>"; };
 		E2F1D6B317AED15B005F4B58 /* ContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactListener.h; path = Classes/ContactListener.h; sourceTree = "<group>"; };
 		E2F1D6B617AED1B0005F4B58 /* Npc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Npc.cpp; path = Classes/Npc.cpp; sourceTree = "<group>"; };
@@ -2500,6 +2503,8 @@
 		E24534D717A30F230000A9AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E2C88C4217AEEBBE003C2E41 /* GLES-Render.cpp */,
+				E2C88C4317AEEBBE003C2E41 /* GLES-Render.h */,
 				E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */,
 				E2F1D6B317AED15B005F4B58 /* ContactListener.h */,
 				E20D0D5517A85208006AB5C2 /* PhysicsWorldScene.cpp */,
@@ -2854,6 +2859,7 @@
 				E20D084E17A84CB3006AB5C2 /* b2PulleyJoint.cpp in Sources */,
 				E20D08B717A84CB4006AB5C2 /* CCSprite.cpp in Sources */,
 				E20D082F17A84CB3006AB5C2 /* b2ChainShape.cpp in Sources */,
+				E2C88C4417AEEBBE003C2E41 /* GLES-Render.cpp in Sources */,
 				E20D0D3F17A84DFF006AB5C2 /* cpPivotJoint.c in Sources */,
 				E2F1D6F517AEDFEB005F4B58 /* tolua_is.c in Sources */,
 				E20D08D417A84CB4006AB5C2 /* CCTileMapAtlas.cpp in Sources */,

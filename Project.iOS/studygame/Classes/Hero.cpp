@@ -66,7 +66,7 @@ void Hero::update(float dt)
     // rotation ball by direction
     // b2Vec2 vec = m_pBody->GetLinearVelocity();
     //this->setRotation(-1*CC_RADIANS_TO_DEGREES(ccpToAngle(CCPointMake(vec.x, vec.y))));
-    
+
 }
 
 void Hero::setJoystick( Joystick *joystick )
