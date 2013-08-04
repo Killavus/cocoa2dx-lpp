@@ -11,24 +11,8 @@
 #include "cocos2d.h"
 #include "Box2D.h"
 #include "Joystick.h"
-
-class PhysicsSprite : public cocos2d::CCSprite
-{
-public:
-    PhysicsSprite();
-    void setPhysicsBody(b2Body * body);
-    virtual bool isDirty(void);
-    virtual cocos2d::CCAffineTransform nodeToParentTransform(void);
-
-    void update(float dt);
-    void setJoystick( Joystick *joystick );
-    void kick();
-    void stop();
-
-private:
-    b2Body* m_pBody;    // strong ref
-    Joystick* m_pJoystick;
-};
+#include "Hero.h"
+#include "Npc.h"
 
 class PsysicsWorld : public cocos2d::CCLayer {
 public:
@@ -40,7 +24,7 @@ public:
     
     void initPhysics();
     // adds a new sprite at a given coordinate
-    void addNewSpriteAtPosition(cocos2d::CCPoint p);
+    void addNewSprite();
 
     virtual void draw();
     void update(float dt);
@@ -51,6 +35,7 @@ private:
     b2World* world;
     cocos2d::CCTexture2D* m_pSpriteTexture; // weak ref
     Joystick* joy;
-    PhysicsSprite *sprite;
+    Hero *hero;
+    Npc* npc;
 };
 

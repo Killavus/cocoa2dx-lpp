@@ -336,9 +336,13 @@
 		E24534DA17A30F230000A9AE /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534D917A30F230000A9AE /* AppDelegate.cpp */; };
 		E24534E917A3139A0000A9AE /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E517A3139A0000A9AE /* MainMenuScene.cpp */; };
 		E24534EA17A3139A0000A9AE /* MainMenuSceneLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */; };
+		E246750E17AEC395008DCF6E /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E246750C17AEC395008DCF6E /* Hero.cpp */; };
 		E26F917517A320A1006A638B /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F917317A320A1006A638B /* GameWorldScene.cpp */; };
 		E299D0D217AE827D0017FD8A /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E299D0D117AE827C0017FD8A /* Published-iOS */; };
+		E299D0D517AEBB2F0017FD8A /* Option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E299D0D317AEBB2F0017FD8A /* Option.cpp */; };
 		E2A0E73B17A7F7CB0041AFE2 /* NameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */; };
+		E2F1D6B417AED15B005F4B58 /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */; };
+		E2F1D6B817AED1B0005F4B58 /* Npc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6B617AED1B0005F4B58 /* Npc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1043,11 +1047,19 @@
 		E24534E617A3139A0000A9AE /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuScene.h; path = Classes/MainMenuScene.h; sourceTree = "<group>"; };
 		E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuSceneLoader.cpp; path = Classes/MainMenuSceneLoader.cpp; sourceTree = "<group>"; };
 		E24534E817A3139A0000A9AE /* MainMenuSceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuSceneLoader.h; path = Classes/MainMenuSceneLoader.h; sourceTree = "<group>"; };
+		E246750C17AEC395008DCF6E /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Hero.cpp; path = Classes/Hero.cpp; sourceTree = "<group>"; };
+		E246750D17AEC395008DCF6E /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Classes/Hero.h; sourceTree = "<group>"; };
 		E26F917317A320A1006A638B /* GameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameWorldScene.cpp; path = Classes/GameWorldScene.cpp; sourceTree = "<group>"; };
 		E26F917417A320A1006A638B /* GameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameWorldScene.h; path = Classes/GameWorldScene.h; sourceTree = "<group>"; };
 		E299D0D117AE827C0017FD8A /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "../../CocosBuilder/StudyGame/Published-iOS"; sourceTree = "<group>"; };
+		E299D0D317AEBB2F0017FD8A /* Option.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Option.cpp; path = Classes/Option.cpp; sourceTree = "<group>"; };
+		E299D0D417AEBB2F0017FD8A /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Option.h; path = Classes/Option.h; sourceTree = "<group>"; };
 		E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NameWorldScene.cpp; path = Classes/NameWorldScene.cpp; sourceTree = "<group>"; };
 		E2A0E73A17A7F7CB0041AFE2 /* NameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameWorldScene.h; path = Classes/NameWorldScene.h; sourceTree = "<group>"; };
+		E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContactListener.cpp; path = Classes/ContactListener.cpp; sourceTree = "<group>"; };
+		E2F1D6B317AED15B005F4B58 /* ContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactListener.h; path = Classes/ContactListener.h; sourceTree = "<group>"; };
+		E2F1D6B617AED1B0005F4B58 /* Npc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Npc.cpp; path = Classes/Npc.cpp; sourceTree = "<group>"; };
+		E2F1D6B717AED1B0005F4B58 /* Npc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Npc.h; path = Classes/Npc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2428,6 +2440,8 @@
 		E24534D717A30F230000A9AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */,
+				E2F1D6B317AED15B005F4B58 /* ContactListener.h */,
 				E20D0D5517A85208006AB5C2 /* PhysicsWorldScene.cpp */,
 				E20D0D5617A85208006AB5C2 /* PhysicsWorldScene.h */,
 				E22BC36A17A33EEB00D4D586 /* Joystick.cpp */,
@@ -2442,6 +2456,12 @@
 				E24534E617A3139A0000A9AE /* MainMenuScene.h */,
 				E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */,
 				E24534E817A3139A0000A9AE /* MainMenuSceneLoader.h */,
+				E299D0D317AEBB2F0017FD8A /* Option.cpp */,
+				E299D0D417AEBB2F0017FD8A /* Option.h */,
+				E246750C17AEC395008DCF6E /* Hero.cpp */,
+				E246750D17AEC395008DCF6E /* Hero.h */,
+				E2F1D6B617AED1B0005F4B58 /* Npc.cpp */,
+				E2F1D6B717AED1B0005F4B58 /* Npc.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -2631,6 +2651,7 @@
 				E20D089A17A84CB3006AB5C2 /* CCParticleSystemQuad.cpp in Sources */,
 				E20D089D17A84CB3006AB5C2 /* CCImageCommonWebp.cpp in Sources */,
 				E20D08AD17A84CB4006AB5C2 /* platform.cpp in Sources */,
+				E246750E17AEC395008DCF6E /* Hero.cpp in Sources */,
 				E20D088F17A84CB3006AB5C2 /* CCTransitionPageTurn.cpp in Sources */,
 				E20D089B17A84CB3006AB5C2 /* CCEGLViewProtocol.cpp in Sources */,
 				E20D0D5717A85208006AB5C2 /* PhysicsWorldScene.cpp in Sources */,
@@ -2652,6 +2673,7 @@
 				E20D085417A84CB3006AB5C2 /* CCAction.cpp in Sources */,
 				E20D08BF17A84CB4006AB5C2 /* ccUTF8.cpp in Sources */,
 				E20D08E217A84CB4006AB5C2 /* CCBAnimationManager.cpp in Sources */,
+				E299D0D517AEBB2F0017FD8A /* Option.cpp in Sources */,
 				E20D08DB17A84CB4006AB5C2 /* CCTouchHandler.cpp in Sources */,
 				E20D084E17A84CB3006AB5C2 /* b2PulleyJoint.cpp in Sources */,
 				E20D08B717A84CB4006AB5C2 /* CCSprite.cpp in Sources */,
@@ -2666,6 +2688,7 @@
 				E20D084517A84CB3006AB5C2 /* b2EdgeAndPolygonContact.cpp in Sources */,
 				E20D082B17A84CB3006AB5C2 /* b2Collision.cpp in Sources */,
 				E20D0D4217A84DFF006AB5C2 /* cpSimpleMotor.c in Sources */,
+				E2F1D6B417AED15B005F4B58 /* ContactListener.cpp in Sources */,
 				E20D087617A84CB3006AB5C2 /* CCGrabber.cpp in Sources */,
 				E20D085317A84CB3006AB5C2 /* b2Rope.cpp in Sources */,
 				E20D090417A84CB4006AB5C2 /* CCControlSlider.cpp in Sources */,
@@ -2781,6 +2804,7 @@
 				E20D08F217A84CB4006AB5C2 /* CCMenuItemLoader.cpp in Sources */,
 				E20D082D17A84CB3006AB5C2 /* b2DynamicTree.cpp in Sources */,
 				E20D086B17A84CB3006AB5C2 /* CCDataVisitor.cpp in Sources */,
+				E2F1D6B817AED1B0005F4B58 /* Npc.cpp in Sources */,
 				E20D082817A84CB3006AB5C2 /* b2CollideCircle.cpp in Sources */,
 				E20D083417A84CB3006AB5C2 /* b2Draw.cpp in Sources */,
 				E20D08A117A84CB3006AB5C2 /* CCApplication.mm in Sources */,
