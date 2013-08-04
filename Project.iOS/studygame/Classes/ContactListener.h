@@ -13,6 +13,8 @@
 using namespace cocos2d;
 
 #include "Box2D/Box2D.h"
+#include "CCLuaEngine.h"
+
 #include <iostream>
 
 #define PTM_RATIO 32.0
@@ -39,7 +41,6 @@ public:
 	virtual void EndContact(b2Contact* contact);
 	virtual void PreSolve(b2Contact* contact, const b2Manifold* oldManifold);    
 	virtual void PostSolve(b2Contact* contact, const b2ContactImpulse* impulse);
-    
 };
 
 

@@ -21,12 +21,20 @@ void CContactListener::BeginContact(b2Contact* contact)
 {
     // We need to copy out the data because the b2Contact passed in
     // is reused.
+    CCLuaEngine* pEngine = CCLuaEngine::defaultEngine();
+    CCScriptEngineManager::sharedManager()->setScriptEngine(pEngine);
+    
+    std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello.lua");
+    pEngine->executeScriptFile(path.c_str());
+    
     ContactData Contact = { contact->GetFixtureA(), contact->GetFixtureB() };
     _contacts.push_back(Contact);
+     
 }
 
 void CContactListener::EndContact(b2Contact* contact) 
 {
+
     ContactData Contact = { contact->GetFixtureA(), contact->GetFixtureB() };
     std::vector<ContactData>::iterator pos;
     pos = std::find(_contacts.begin(), _contacts.end(), Contact);

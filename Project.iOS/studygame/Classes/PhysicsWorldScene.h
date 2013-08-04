@@ -13,6 +13,7 @@
 #include "Joystick.h"
 #include "Hero.h"
 #include "Npc.h"
+#include "ContactListener.h"
 
 class PsysicsWorld : public cocos2d::CCLayer {
 public:
@@ -37,5 +38,6 @@ private:
     Joystick* joy;
     Hero *hero;
     Npc* npc;
+    CContactListener* contactListener;
 };
 
