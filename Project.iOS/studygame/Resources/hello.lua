@@ -25,7 +25,7 @@ local function main()
     cclog(visibleSize.height)
     local bg = CCSprite:create("HelloWorld.png")
     bg:setPosition(visibleSize.width/2,visibleSize.height/2)
-    sceneGame:addChild(bg)
+    sceneGame:addChild(bg,-1)
 end
 
 xpcall(main, __G__TRACKBACK__)

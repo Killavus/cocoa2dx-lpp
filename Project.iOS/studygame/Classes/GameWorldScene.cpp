@@ -39,7 +39,6 @@ bool GameWorld::init()
     pLabel->setPosition( ccp(size.width / 2, size.height - 20) );
 
     this->addChild(pLabel, 1);
-    
     return true;
 }
 

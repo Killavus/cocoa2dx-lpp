@@ -12,9 +12,11 @@
 CContactListener::CContactListener(): _contacts(),
 pEngine(NULL)
 {
+    pEngine = CCLuaEngine::defaultEngine();
+    CCScriptEngineManager::sharedManager()->setScriptEngine(pEngine);
 }
 
-CContactListener::~CContactListener() 
+CContactListener::~CContactListener()
 {
 }
 
@@ -22,10 +24,12 @@ void CContactListener::BeginContact(b2Contact* contact)
 {
     // We need to copy out the data because the b2Contact passed in
     // is reused.
-    if (pEngine==NULL){
-        pEngine = CCLuaEngine::defaultEngine();
-        CCScriptEngineManager::sharedManager()->setScriptEngine(pEngine);
-        
+    
+
+    b2Fixture* figure1 = contact->GetFixtureA();
+    b2Fixture* figure2 = contact->GetFixtureB();
+    CCLOG("%d, %d",figure1->GetType(),figure2->GetType());
+    if (figure1->GetType()==figure2->GetType()){
         std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello.lua");
         pEngine->executeScriptFile(path.c_str());
     }
@@ -36,7 +40,12 @@ void CContactListener::BeginContact(b2Contact* contact)
 
 void CContactListener::EndContact(b2Contact* contact) 
 {
-
+    b2Fixture* figure1 = contact->GetFixtureA();
+    b2Fixture* figure2 = contact->GetFixtureB();
+    if (figure1->GetType()==figure2->GetType()){
+        std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello2.lua");
+        pEngine->executeScriptFile(path.c_str());
+    }
     ContactData Contact = { contact->GetFixtureA(), contact->GetFixtureB() };
     std::vector<ContactData>::iterator pos;
     pos = std::find(_contacts.begin(), _contacts.end(), Contact);
