@@ -13,7 +13,7 @@
 
 #include "cocos2d.h"
 #include "cocos-ext.h"
-#include "GameWorldScene.h"
+#include "NameWorldScene.h"
 
 using namespace cocos2d;
 using namespace cocos2d::extension;
@@ -21,6 +21,7 @@ using namespace cocos2d::extension;
 class MainMenuScene : public cocos2d::CCLayer,public cocos2d::extension::CCBMemberVariableAssigner, public cocos2d::extension::CCBSelectorResolver
 {
 private:
+    CCLabelTTF* playLabel;
     
 public:
     static CCScene* scene();
@@ -40,6 +41,9 @@ public:
     
     void update(float dt);
     void pressedPlay(cocos2d::CCObject *pSender);
+    void pressedOption(cocos2d::CCObject *pSender);
+    void pressedOptionBack(cocos2d::CCObject *pSender);
+    void resetGame(cocos2d::CCObject *pSender);
 
 };
 

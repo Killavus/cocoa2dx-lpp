@@ -9,9 +9,10 @@
 #include "AppDelegate.h"
 
 #include "cocos2d.h"
+#include "SimpleAudioEngine.h"
 #include "MainMenuScene.h"
 #include "../platform/CCFileUtils.h"
-#include "SimpleAudioEngine.h"
+
 
 USING_NS_CC;
 using namespace CocosDenshion;

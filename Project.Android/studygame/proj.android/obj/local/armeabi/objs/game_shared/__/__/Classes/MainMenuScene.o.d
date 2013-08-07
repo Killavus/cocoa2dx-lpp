@@ -203,83 +203,83 @@ obj/local/armeabi/objs/game_shared/__/__/Classes/MainMenuScene.o: \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../cocos2dx/support/data_support/uthash.h \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../cocos2dx/support/component/CCComponent.h \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../cocos2dx/support/component/CCComponentContainer.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/cocos-ext.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/ExtensionMacros.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBFileLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/../../ExtensionMacros.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBReader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/ExtensionMacros.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequence.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequenceProperty.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBKeyframe.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBValue.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBMemberVariableAssigner.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBReader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSelectorResolver.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCControlButtonLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCControlLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCControlLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLabelBMFontLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLabelTTFLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerColorLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerGradientLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuItemImageLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuItemLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuItemLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoaderLibrary.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoaderListener.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCParticleSystemQuadLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCScale9SpriteLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCScale9SpriteLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCScrollViewLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCSpriteLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBAnimationManager.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBKeyframe.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequence.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequenceProperty.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBValue.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCData.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNode+CCBRelativePositioning.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlExtensions.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCScale9Sprite.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControl.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlButton.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlColourPicker.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlUtils.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlHuePicker.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCInvocation.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlSlider.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlStepper.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlSwitch.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCScrollView.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCTableView.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCScrollView.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCTableViewCell.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCSorting.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCEditBox/CCEditBox.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpRequest.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpResponse.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpRequest.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpClient.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpResponse.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/physics_nodes/CCPhysicsDebugNode.h \
+ jni/../../../extensions/cocos-ext.h \
+ jni/../../../extensions/ExtensionMacros.h \
+ jni/../../../extensions/CCBReader/CCBFileLoader.h \
+ jni/../../../extensions/CCBReader/CCNodeLoader.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/../../ExtensionMacros.h \
+ jni/../../../extensions/CCBReader/CCBReader.h \
+ jni/../../../extensions/ExtensionMacros.h \
+ jni/../../../extensions/CCBReader/CCBSequence.h \
+ jni/../../../extensions/CCBReader/CCBSequenceProperty.h \
+ jni/../../../extensions/CCBReader/CCBKeyframe.h \
+ jni/../../../extensions/CCBReader/CCBValue.h \
+ jni/../../../extensions/CCBReader/CCBMemberVariableAssigner.h \
+ jni/../../../extensions/CCBReader/CCBReader.h \
+ jni/../../../extensions/CCBReader/CCBSelectorResolver.h \
+ jni/../../../extensions/CCBReader/CCControlButtonLoader.h \
+ jni/../../../extensions/CCBReader/CCControlLoader.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
+ jni/../../../extensions/CCBReader/CCControlLoader.h \
+ jni/../../../extensions/CCBReader/CCLabelBMFontLoader.h \
+ jni/../../../extensions/CCBReader/CCLabelTTFLoader.h \
+ jni/../../../extensions/CCBReader/CCLayerColorLoader.h \
+ jni/../../../extensions/CCBReader/CCLayerLoader.h \
+ jni/../../../extensions/CCBReader/CCLayerGradientLoader.h \
+ jni/../../../extensions/CCBReader/CCLayerLoader.h \
+ jni/../../../extensions/CCBReader/CCMenuItemImageLoader.h \
+ jni/../../../extensions/CCBReader/CCMenuItemLoader.h \
+ jni/../../../extensions/CCBReader/CCMenuItemLoader.h \
+ jni/../../../extensions/CCBReader/CCMenuLoader.h \
+ jni/../../../extensions/CCBReader/CCNodeLoader.h \
+ jni/../../../extensions/CCBReader/CCNodeLoaderLibrary.h \
+ jni/../../../extensions/CCBReader/CCNodeLoaderListener.h \
+ jni/../../../extensions/CCBReader/CCParticleSystemQuadLoader.h \
+ jni/../../../extensions/CCBReader/CCScale9SpriteLoader.h \
+ jni/../../../extensions/CCBReader/CCScale9SpriteLoader.h \
+ jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h \
+ jni/../../../extensions/CCBReader/CCScrollViewLoader.h \
+ jni/../../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h \
+ jni/../../../extensions/CCBReader/CCSpriteLoader.h \
+ jni/../../../extensions/CCBReader/CCBAnimationManager.h \
+ jni/../../../extensions/CCBReader/CCBKeyframe.h \
+ jni/../../../extensions/CCBReader/CCBSequence.h \
+ jni/../../../extensions/CCBReader/CCBSequenceProperty.h \
+ jni/../../../extensions/CCBReader/CCBValue.h \
+ jni/../../../extensions/CCBReader/CCData.h \
+ jni/../../../extensions/CCBReader/CCNode+CCBRelativePositioning.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControl.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlButton.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlColourPicker.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlUtils.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlHuePicker.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCInvocation.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlSlider.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlStepper.h \
+ jni/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h \
+ jni/../../../extensions/GUI/CCScrollView/CCScrollView.h \
+ jni/../../../extensions/GUI/CCScrollView/CCTableView.h \
+ jni/../../../extensions/GUI/CCScrollView/CCScrollView.h \
+ jni/../../../extensions/GUI/CCScrollView/CCTableViewCell.h \
+ jni/../../../extensions/GUI/CCScrollView/CCSorting.h \
+ jni/../../../extensions/GUI/CCEditBox/CCEditBox.h \
+ jni/../../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h \
+ jni/../../../extensions/network/HttpRequest.h \
+ jni/../../../extensions/network/HttpResponse.h \
+ jni/../../../extensions/network/HttpRequest.h \
+ jni/../../../extensions/network/HttpClient.h \
+ jni/../../../extensions/network/HttpResponse.h \
+ jni/../../../extensions/physics_nodes/CCPhysicsDebugNode.h \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/chipmunk.h \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/chipmunk_types.h \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/cpVect.h \
@@ -301,33 +301,88 @@ obj/local/armeabi/objs/game_shared/__/__/Classes/MainMenuScene.o: \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/constraints/cpGearJoint.h \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h \
  /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/cpSpace.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/physics_nodes/CCPhysicsSprite.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/spine-cocos2dx.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/spine.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Animation.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AnimationState.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AnimationStateData.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/SkeletonData.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/BoneData.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/SlotData.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Skin.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Attachment.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Atlas.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AtlasAttachmentLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AttachmentLoader.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Bone.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/RegionAttachment.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Slot.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Skeleton.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/SkeletonJson.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/CCSkeleton.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/CCSkeletonAnimation.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCComAttribute.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCComAudio.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCComController.h \
- /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCInputDelegate.h \
- jni/../../Classes/GameWorldScene.h \
- jni/../../Classes/MainMenuSceneLoader.h
+ jni/../../../extensions/physics_nodes/CCPhysicsSprite.h \
+ jni/../../../extensions/spine/spine-cocos2dx.h \
+ jni/../../../extensions/spine/spine.h \
+ jni/../../../extensions/spine/Animation.h \
+ jni/../../../extensions/spine/AnimationState.h \
+ jni/../../../extensions/spine/AnimationStateData.h \
+ jni/../../../extensions/spine/SkeletonData.h \
+ jni/../../../extensions/spine/BoneData.h \
+ jni/../../../extensions/spine/SlotData.h \
+ jni/../../../extensions/spine/Skin.h \
+ jni/../../../extensions/spine/Attachment.h \
+ jni/../../../extensions/spine/Atlas.h \
+ jni/../../../extensions/spine/AtlasAttachmentLoader.h \
+ jni/../../../extensions/spine/AttachmentLoader.h \
+ jni/../../../extensions/spine/Bone.h \
+ jni/../../../extensions/spine/RegionAttachment.h \
+ jni/../../../extensions/spine/Slot.h \
+ jni/../../../extensions/spine/Skeleton.h \
+ jni/../../../extensions/spine/SkeletonJson.h \
+ jni/../../../extensions/spine/CCSkeleton.h \
+ jni/../../../extensions/spine/CCSkeletonAnimation.h \
+ jni/../../../extensions/Components/CCComAttribute.h \
+ jni/../../../extensions/Components/CCComAudio.h \
+ jni/../../../extensions/Components/CCComController.h \
+ jni/../../../extensions/Components/CCInputDelegate.h \
+ jni/../../Classes/NameWorldScene.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlButton.h \
+ jni/../../../extensions/GUI/CCEditBox/CCEditBox.h \
+ jni/../../Classes/GameWorldScene.h jni/../../Classes/Joystick.h \
+ jni/../../Classes/PhysicsWorldScene.h \
+ jni/../../../external/Box2D/Box2D.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Settings.h \
+ /Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cassert \
+ /Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cmath \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Draw.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Math.h \
+ /Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cfloat \
+ /Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef \
+ /Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/limits \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Timer.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2Shape.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2BlockAllocator.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2Collision.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2EdgeShape.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2ChainShape.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2BroadPhase.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2DynamicTree.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2GrowableStack.h \
+ /Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/algorithm \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2Distance.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2TimeOfImpact.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2Body.h \
+ /Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/memory \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2Fixture.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2WorldCallbacks.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2TimeStep.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2World.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2StackAllocator.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2ContactManager.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Contacts/b2Contact.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2FrictionJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2GearJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2MouseJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2PrismaticJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2PulleyJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2RevoluteJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2RopeJoint.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2WeldJoint.h \
+ jni/../../Classes/Hero.h jni/../../Classes/Npc.h \
+ jni/../../Classes/ContactListener.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Box2D.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../cocos2dx_support/CCLuaEngine.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../luajit/include/lua.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../luajit/include/luaconf.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../cocos2dx_support/CCLuaStack.h \
+ /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../cocos2dx_support/CCLuaValue.h \
+ jni/../../Classes/GLES-Render.h jni/../../Classes/MainMenuSceneLoader.h
 
 jni/../../Classes/MainMenuScene.h:
 
@@ -737,159 +792,159 @@ jni/../../Classes/MainMenuScene.h:
 
 /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../cocos2dx/support/component/CCComponentContainer.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/cocos-ext.h:
+jni/../../../extensions/cocos-ext.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/ExtensionMacros.h:
+jni/../../../extensions/ExtensionMacros.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBFileLoader.h:
+jni/../../../extensions/CCBReader/CCBFileLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoader.h:
+jni/../../../extensions/CCBReader/CCNodeLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/../../ExtensionMacros.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/../../ExtensionMacros.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBReader.h:
+jni/../../../extensions/CCBReader/CCBReader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/ExtensionMacros.h:
+jni/../../../extensions/ExtensionMacros.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequence.h:
+jni/../../../extensions/CCBReader/CCBSequence.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequenceProperty.h:
+jni/../../../extensions/CCBReader/CCBSequenceProperty.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBKeyframe.h:
+jni/../../../extensions/CCBReader/CCBKeyframe.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBValue.h:
+jni/../../../extensions/CCBReader/CCBValue.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBMemberVariableAssigner.h:
+jni/../../../extensions/CCBReader/CCBMemberVariableAssigner.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBReader.h:
+jni/../../../extensions/CCBReader/CCBReader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSelectorResolver.h:
+jni/../../../extensions/CCBReader/CCBSelectorResolver.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCControlButtonLoader.h:
+jni/../../../extensions/CCBReader/CCControlButtonLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCControlLoader.h:
+jni/../../../extensions/CCBReader/CCControlLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCInvocation.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlUtils.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControlButton.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCControl.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCControlLoader.h:
+jni/../../../extensions/CCBReader/CCControlLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLabelBMFontLoader.h:
+jni/../../../extensions/CCBReader/CCLabelBMFontLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLabelTTFLoader.h:
+jni/../../../extensions/CCBReader/CCLabelTTFLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerColorLoader.h:
+jni/../../../extensions/CCBReader/CCLayerColorLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerLoader.h:
+jni/../../../extensions/CCBReader/CCLayerLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerGradientLoader.h:
+jni/../../../extensions/CCBReader/CCLayerGradientLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCLayerLoader.h:
+jni/../../../extensions/CCBReader/CCLayerLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuItemImageLoader.h:
+jni/../../../extensions/CCBReader/CCMenuItemImageLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuItemLoader.h:
+jni/../../../extensions/CCBReader/CCMenuItemLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuItemLoader.h:
+jni/../../../extensions/CCBReader/CCMenuItemLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCMenuLoader.h:
+jni/../../../extensions/CCBReader/CCMenuLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoader.h:
+jni/../../../extensions/CCBReader/CCNodeLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoaderLibrary.h:
+jni/../../../extensions/CCBReader/CCNodeLoaderLibrary.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNodeLoaderListener.h:
+jni/../../../extensions/CCBReader/CCNodeLoaderListener.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCParticleSystemQuadLoader.h:
+jni/../../../extensions/CCBReader/CCParticleSystemQuadLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCScale9SpriteLoader.h:
+jni/../../../extensions/CCBReader/CCScale9SpriteLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCScale9SpriteLoader.h:
+jni/../../../extensions/CCBReader/CCScale9SpriteLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
+jni/../../../extensions/CCBReader/../GUI/CCControlExtension/CCScale9Sprite.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCScrollViewLoader.h:
+jni/../../../extensions/CCBReader/CCScrollViewLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h:
+jni/../../../extensions/CCBReader/../GUI/CCScrollView/CCScrollView.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCSpriteLoader.h:
+jni/../../../extensions/CCBReader/CCSpriteLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBAnimationManager.h:
+jni/../../../extensions/CCBReader/CCBAnimationManager.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBKeyframe.h:
+jni/../../../extensions/CCBReader/CCBKeyframe.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequence.h:
+jni/../../../extensions/CCBReader/CCBSequence.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBSequenceProperty.h:
+jni/../../../extensions/CCBReader/CCBSequenceProperty.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCBValue.h:
+jni/../../../extensions/CCBReader/CCBValue.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCData.h:
+jni/../../../extensions/CCBReader/CCData.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/CCBReader/CCNode+CCBRelativePositioning.h:
+jni/../../../extensions/CCBReader/CCNode+CCBRelativePositioning.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlExtensions.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlExtensions.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCScale9Sprite.h:
+jni/../../../extensions/GUI/CCControlExtension/CCScale9Sprite.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControl.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControl.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlButton.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlButton.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlColourPicker.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlColourPicker.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlUtils.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlUtils.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlHuePicker.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlHuePicker.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCInvocation.h:
+jni/../../../extensions/GUI/CCControlExtension/CCInvocation.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlSaturationBrightnessPicker.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlPotentiometer.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlSlider.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlSlider.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlStepper.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlStepper.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlSwitch.h:
+jni/../../../extensions/GUI/CCControlExtension/CCControlSwitch.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCScrollView.h:
+jni/../../../extensions/GUI/CCScrollView/CCScrollView.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCTableView.h:
+jni/../../../extensions/GUI/CCScrollView/CCTableView.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCScrollView.h:
+jni/../../../extensions/GUI/CCScrollView/CCScrollView.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCTableViewCell.h:
+jni/../../../extensions/GUI/CCScrollView/CCTableViewCell.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCScrollView/CCSorting.h:
+jni/../../../extensions/GUI/CCScrollView/CCSorting.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCEditBox/CCEditBox.h:
+jni/../../../extensions/GUI/CCEditBox/CCEditBox.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h:
+jni/../../../extensions/GUI/CCEditBox/../CCControlExtension/CCControlExtensions.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpRequest.h:
+jni/../../../extensions/network/HttpRequest.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpResponse.h:
+jni/../../../extensions/network/HttpResponse.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpRequest.h:
+jni/../../../extensions/network/HttpRequest.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpClient.h:
+jni/../../../extensions/network/HttpClient.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/network/HttpResponse.h:
+jni/../../../extensions/network/HttpResponse.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/physics_nodes/CCPhysicsDebugNode.h:
+jni/../../../extensions/physics_nodes/CCPhysicsDebugNode.h:
 
 /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/chipmunk.h:
 
@@ -933,56 +988,172 @@ jni/../../Classes/MainMenuScene.h:
 
 /Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/chipmunk/include/chipmunk/cpSpace.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/physics_nodes/CCPhysicsSprite.h:
+jni/../../../extensions/physics_nodes/CCPhysicsSprite.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/spine-cocos2dx.h:
+jni/../../../extensions/spine/spine-cocos2dx.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/spine.h:
+jni/../../../extensions/spine/spine.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Animation.h:
+jni/../../../extensions/spine/Animation.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AnimationState.h:
+jni/../../../extensions/spine/AnimationState.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AnimationStateData.h:
+jni/../../../extensions/spine/AnimationStateData.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/SkeletonData.h:
+jni/../../../extensions/spine/SkeletonData.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/BoneData.h:
+jni/../../../extensions/spine/BoneData.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/SlotData.h:
+jni/../../../extensions/spine/SlotData.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Skin.h:
+jni/../../../extensions/spine/Skin.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Attachment.h:
+jni/../../../extensions/spine/Attachment.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Atlas.h:
+jni/../../../extensions/spine/Atlas.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AtlasAttachmentLoader.h:
+jni/../../../extensions/spine/AtlasAttachmentLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/AttachmentLoader.h:
+jni/../../../extensions/spine/AttachmentLoader.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Bone.h:
+jni/../../../extensions/spine/Bone.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/RegionAttachment.h:
+jni/../../../extensions/spine/RegionAttachment.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Slot.h:
+jni/../../../extensions/spine/Slot.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/Skeleton.h:
+jni/../../../extensions/spine/Skeleton.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/SkeletonJson.h:
+jni/../../../extensions/spine/SkeletonJson.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/CCSkeleton.h:
+jni/../../../extensions/spine/CCSkeleton.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/spine/CCSkeletonAnimation.h:
+jni/../../../extensions/spine/CCSkeletonAnimation.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCComAttribute.h:
+jni/../../../extensions/Components/CCComAttribute.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCComAudio.h:
+jni/../../../extensions/Components/CCComAudio.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCComController.h:
+jni/../../../extensions/Components/CCComController.h:
 
-/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/Components/CCInputDelegate.h:
+jni/../../../extensions/Components/CCInputDelegate.h:
+
+jni/../../Classes/NameWorldScene.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../extensions/GUI/CCControlExtension/CCControlButton.h:
+
+jni/../../../extensions/GUI/CCEditBox/CCEditBox.h:
 
 jni/../../Classes/GameWorldScene.h:
+
+jni/../../Classes/Joystick.h:
+
+jni/../../Classes/PhysicsWorldScene.h:
+
+jni/../../../external/Box2D/Box2D.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Settings.h:
+
+/Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cassert:
+
+/Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cmath:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Draw.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Math.h:
+
+/Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cfloat:
+
+/Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef:
+
+/Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/limits:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2Timer.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2CircleShape.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2Shape.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2BlockAllocator.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2Collision.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2EdgeShape.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2ChainShape.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/Shapes/b2PolygonShape.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2BroadPhase.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2DynamicTree.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2GrowableStack.h:
+
+/Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/algorithm:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2Distance.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Collision/b2TimeOfImpact.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2Body.h:
+
+/Users/Torianin/Documents/android-ndk-r8e/sources/cxx-stl/gnu-libstdc++/4.6/include/memory:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2Fixture.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2WorldCallbacks.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2TimeStep.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2World.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Common/b2StackAllocator.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/b2ContactManager.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Contacts/b2Contact.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2DistanceJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2Joint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2FrictionJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2GearJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2WheelJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2MouseJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2PrismaticJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2PulleyJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2RevoluteJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2RopeJoint.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Dynamics/Joints/b2WeldJoint.h:
+
+jni/../../Classes/Hero.h:
+
+jni/../../Classes/Npc.h:
+
+jni/../../Classes/ContactListener.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../external/Box2D/../Box2D/Box2D.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../cocos2dx_support/CCLuaEngine.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../luajit/include/lua.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../luajit/include/luaconf.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../cocos2dx_support/CCLuaStack.h:
+
+/Users/Torianin/Dropbox/cocoa2dx-lpp/Project.Android/studygame/proj.android/../../scripting/lua/proj.android/../cocos2dx_support/CCLuaValue.h:
+
+jni/../../Classes/GLES-Render.h:
 
 jni/../../Classes/MainMenuSceneLoader.h:

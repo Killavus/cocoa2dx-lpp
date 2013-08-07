@@ -4,18 +4,109 @@
 <dict>
 	<key>frames</key>
 	<dict>
-		<key>Graphics/blank_background.png</key>
+		<key>Graphics/DE.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1}, {-127, -26}}</string>
+			<string>{{1, 19}, {24, 16}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 16}}</string>
+			<key>sourceSize</key>
+			<string>{24, 16}</string>
+		</dict>
+		<key>Graphics/GB.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{27, 1}, {24, 16}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 16}}</string>
+			<key>sourceSize</key>
+			<string>{24, 16}</string>
+		</dict>
+		<key>Graphics/PL.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {24, 16}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 16}}</string>
+			<key>sourceSize</key>
+			<string>{24, 16}</string>
+		</dict>
+		<key>Graphics/blank_background.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{64, 1}, {-127, -26}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
 			<string>{{127, 26}, {-127, -26}}</string>
 			<key>sourceSize</key>
 			<string>{127, 26}</string>
+		</dict>
+		<key>Graphics/facebook.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{16, 45}, {13, 13}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 1}, {13, 13}}</string>
+			<key>sourceSize</key>
+			<string>{16, 16}</string>
+		</dict>
+		<key>Graphics/nosound.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{53, 1}, {6, 9}}</string>
+			<key>offset</key>
+			<string>{-3, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {6, 9}}</string>
+			<key>sourceSize</key>
+			<string>{12, 11}</string>
+		</dict>
+		<key>Graphics/sound.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{19, 19}, {12, 11}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {12, 11}}</string>
+			<key>sourceSize</key>
+			<string>{12, 11}</string>
+		</dict>
+		<key>Graphics/twitter.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 45}, {13, 13}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 1}, {13, 13}}</string>
+			<key>sourceSize</key>
+			<string>{16, 16}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>
@@ -23,7 +114,7 @@
 		<key>format</key>
 		<integer>2</integer>
 		<key>size</key>
-		<string>{8, 8}</string>
+		<string>{64, 64}</string>
 		<key>textureFileName</key>
 		<string>Graphics.png</string>
 	</dict>
