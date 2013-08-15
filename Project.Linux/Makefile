@@ -1,6 +1,6 @@
 EXECUTABLE = LPP
 
-SOURCES = ../Classes/Option.cpp \
+SOURCES = Main.cpp          ../Classes/Option.cpp \
           ../Classes/Hero.cpp \
           ../Classes/Joystick.cpp \
           ../Classes/MainMenuScene.cpp \
@@ -18,7 +18,7 @@ INCLUDES = -I.. -I../Classes -I$(COCOS_ROOT)/external/Box2D -I$(COCOS_ROOT)/exte
 
 include $(COCOS_ROOT)/cocos2dx/proj.linux/cocos2dx.mk
 
-SHAREDLIBS += -lcocos2d -lbox2d
+SHAREDLIBS += -lcocos2d -lbox2d -lcocosdenshion -llua -lextension
 COCOS_LIBS = $(LIB_DIR)/libcocos2d.so
 
 $(TARGET): $(OBJECTS) $(STATICLIBS) $(COCOS_LIBS) $(CORE_MAKEFILE_LIST)
