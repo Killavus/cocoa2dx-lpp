@@ -1,1 +1,1 @@
-cd proj.linux/bin/release && ./LPP
+cd Project.Linux/bin/release && ./LPP

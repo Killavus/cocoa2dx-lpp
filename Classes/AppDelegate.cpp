@@ -99,8 +99,7 @@ bool AppDelegate::applicationDidFinishLaunching()
         CCFileUtils::sharedFileUtils()->setSearchResolutionsOrder(resDirOrders);
     }
     else if (platform == kTargetAndroid || platform == kTargetWindows)
-    {
-        
+    {   
         if (screenSize.width > 960)
         {
             designSize = CCSizeMake(screenSize.width, screenSize.height);
@@ -128,7 +127,56 @@ bool AppDelegate::applicationDidFinishLaunching()
         }
         
         CCFileUtils::sharedFileUtils()->setSearchResolutionsOrder(resDirOrders);
+    }
+    else if (platform == kTargetLinux) {
+        searchPaths.push_back("Published-iOS"); // Resources/Published-iOS
+        CCFileUtils::sharedFileUtils()->setSearchPaths(searchPaths);
         
+        if (screenSize.width > 1536)
+        {
+            designSize = CCSizeMake(2048, 1536);
+            resourceSize = CCSizeMake(2048, 1536);
+            resDirOrders.push_back("resources-ipadhd");
+            std::cout << "Resources ipadhd";
+            pDirector->setContentScaleFactor(4);
+            CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width/4, designSize.height/4, kResolutionShowAll);
+        }
+        else if (screenSize.width > 1136)
+        {
+            designSize = CCSizeMake(1536, 768);
+            resourceSize = CCSizeMake(1536, 768);
+            resDirOrders.push_back("resources-ipad");
+            std::cout << "Resources ipad";
+            pDirector->setContentScaleFactor(2);
+            CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width/2, designSize.height/2, kResolutionShowAll);
+        }
+        else if (screenSize.width > 960)
+        {
+            designSize = CCSizeMake(1136, 640);
+            resourceSize = CCSizeMake(1136, 640);
+            resDirOrders.push_back("resources-iphonehd");
+            std::cout << "Resources iPhonehd";
+            pDirector->setContentScaleFactor(2);
+            CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width/2, designSize.height/2, kResolutionShowAll);
+        }
+        else if (screenSize.width > 480)
+        {
+            designSize = CCSizeMake(960, 640);
+            resourceSize = CCSizeMake(960, 640);
+            resDirOrders.push_back("resources-iphonehd");
+            std::cout << "Resources iPhonehd";
+            pDirector->setContentScaleFactor(2);
+            CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width/2, designSize.height/2, kResolutionShowAll);
+        }
+        else
+        {
+            resDirOrders.push_back("resources-iphone");
+            std::cout << "Resources iPhone";
+            pDirector->setContentScaleFactor(1);
+            CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width/1, designSize.height/1, kResolutionShowAll);
+        }
+        
+        CCFileUtils::sharedFileUtils()->setSearchResolutionsOrder(resDirOrders);
     }
     
     // create a scene. it's an autorelease object
