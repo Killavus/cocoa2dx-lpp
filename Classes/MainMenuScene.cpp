@@ -90,8 +90,8 @@ void MainMenuScene::pressedPlay(cocos2d::CCObject *pSender)
     {
         CCLog("PressedPlay");
         CCScene *gameScene = NameWorld::scene();
-        CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));    }
-
+        CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));    
+    }
 }
 
 void MainMenuScene::pressedOption(cocos2d::CCObject *pSender)
