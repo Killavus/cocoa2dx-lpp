@@ -19,7 +19,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v110_xp</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -41,6 +41,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -51,12 +54,15 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\cocos2dx;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\cocos2dx\include;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\lua\lua;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\cocos2dx\kazmath\include;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\cocos2dx\platform\win32;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\cocos2dx\platform\third_party\win32;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\cocos2dx\platform\third_party\win32\OGLES;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\cocos2dx\platform\third_party\win32\pthread;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\external;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\external\chipmunk\include\chipmunk;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\external\libwebsockets\win32\include;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\CocosDenshion\include;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\extensions;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\extensions\network;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\lua\tolua;C:\Users\glown_000\Desktop\cocos2d-x-2.1.4\cocos2d-x-2.1.4\scripting\lua\script;A:\GitHub\LPP\cocoa2dx-lpp\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(CocosRoot)\cocos2dx;$(CocosRoot)\cocos2dx\include;$(CocosRoot)\scripting\lua\lua;$(CocosRoot)\cocos2dx\kazmath\include;$(CocosRoot)\cocos2dx\platform\win32;$(CocosRoot)\cocos2dx\platform\third_party\win32;$(CocosRoot)\cocos2dx\platform\third_party\win32\OGLES;$(CocosRoot)\cocos2dx\platform\third_party\win32\pthread;$(CocosRoot)\external\Box2D;$(CocosRoot)\external;$(CocosRoot)\external\chipmunk\include\chipmunk;$(CocosRoot)\external\libwebsockets\win32\include;$(CocosRoot)\CocosDenshion\include;$(CocosRoot)\extensions;$(CocosRoot)\extensions\GUI\CCControlExtension;$(CocosRoot)\extensions\GUI\CCEditBox;$(CocosRoot)\extensions\network;$(CocosRoot)\scripting\lua\tolua;$(CocosRoot)\scripting\lua\cocos2dx_support;$(CocosRoot)\scripting\lua\script;..\Classes;..\..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;websockets.lib;pthreadVCE2.lib;liblua.lib;lua51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(CocosRoot)\Debug.win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

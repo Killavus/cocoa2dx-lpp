@@ -7,3 +7,10 @@ Project.Android/extensions
 Project.Android/external
 Project.Android/scripting
 Project.iOS/studygame/libs
+Project.Windows/Debug
+Project.Windows/Debug.win32
+Project.Windows/apphelp.pdb
+Project.Windows/StudyGame/Debug
+Project.Windows/StudyGame/Debug.win32
+*.sdf
+*.opensdf
