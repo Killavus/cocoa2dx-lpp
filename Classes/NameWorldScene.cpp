@@ -30,7 +30,7 @@ bool NameWorld::init()
     textInputBackground->setContentSize(CCSize(200, 50));
     textInputBackground->setPosition(ccp(size.width / 2, size.height / 2));
 
-    CCTextFieldTTF* textInput = CCTextFieldTTF::textFieldWithPlaceHolder("foo", "Tahoma", 16.0);
+    textInput = CCTextFieldTTF::textFieldWithPlaceHolder("foo", "Tahoma", 16.0);
     textInput->setPosition(ccp(size.width / 2, size.height / 2)); 
     textInput->attachWithIME();
 
@@ -55,6 +55,9 @@ bool NameWorld::init()
 
 void NameWorld::menuNameCallback(CCObject* pSender)
 {
+    CCLOG(textInput->getString());
+    
+    CCUserDefault::sharedUserDefault()->setStringForKey("NazwaPostaci", textInput->getString());
     CCLog("PressedPlay");
     CCScene *gameScene = GameWorld::scene();
     CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));

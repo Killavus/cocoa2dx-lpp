@@ -8,6 +8,8 @@ using namespace cocos2d::extension;
 
 class NameWorld : public cocos2d::CCLayer
 {
+private:
+    CCTextFieldTTF* textInput;
 public:
     // Method 'init' in cocos2d-x returns bool, instead of 'id' in cocos2d-iphone (an object pointer)
     virtual bool init();
