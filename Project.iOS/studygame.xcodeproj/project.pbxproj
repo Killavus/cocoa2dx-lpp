@@ -306,11 +306,9 @@
 		E20D0D5217A84DFF006AB5C2 /* cpSpatialIndex.c in Sources */ = {isa = PBXBuildFile; fileRef = E20D0D3017A84DFF006AB5C2 /* cpSpatialIndex.c */; };
 		E20D0D5317A84DFF006AB5C2 /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = E20D0D3117A84DFF006AB5C2 /* cpSweep1D.c */; };
 		E20D0D5417A84DFF006AB5C2 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = E20D0D3217A84DFF006AB5C2 /* cpVect.c */; };
-		E20D0D5717A85208006AB5C2 /* PhysicsWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E20D0D5517A85208006AB5C2 /* PhysicsWorldScene.cpp */; };
 		E20D0D5917A8527B006AB5C2 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = E20D0D5817A8527B006AB5C2 /* blocks.png */; };
 		E22BC36817A33ED900D4D586 /* joystick_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36617A33ED900D4D586 /* joystick_background.png */; };
 		E22BC36917A33ED900D4D586 /* joystick_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36717A33ED900D4D586 /* joystick_thumb.png */; };
-		E22BC36C17A33EEB00D4D586 /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E22BC36A17A33EEB00D4D586 /* Joystick.cpp */; };
 		E245313717A30F1D0000A9AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E245313617A30F1D0000A9AE /* QuartzCore.framework */; };
 		E245313917A30F1D0000A9AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E245313817A30F1D0000A9AE /* OpenGLES.framework */; };
 		E245313B17A30F1D0000A9AE /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E245313A17A30F1D0000A9AE /* OpenAL.framework */; };
@@ -333,17 +331,19 @@
 		E245316217A30F1D0000A9AE /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316117A30F1D0000A9AE /* AppController.mm */; };
 		E245316517A30F1D0000A9AE /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316417A30F1D0000A9AE /* RootViewController.mm */; };
 		E245316717A30F1D0000A9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E245316617A30F1D0000A9AE /* main.m */; };
-		E24534DA17A30F230000A9AE /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534D917A30F230000A9AE /* AppDelegate.cpp */; };
-		E24534E917A3139A0000A9AE /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E517A3139A0000A9AE /* MainMenuScene.cpp */; };
-		E24534EA17A3139A0000A9AE /* MainMenuSceneLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */; };
-		E246750E17AEC395008DCF6E /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E246750C17AEC395008DCF6E /* Hero.cpp */; };
-		E26F917517A320A1006A638B /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26F917317A320A1006A638B /* GameWorldScene.cpp */; };
 		E299D0D217AE827D0017FD8A /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E299D0D117AE827C0017FD8A /* Published-iOS */; };
-		E299D0D517AEBB2F0017FD8A /* Option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E299D0D317AEBB2F0017FD8A /* Option.cpp */; };
-		E2A0E73B17A7F7CB0041AFE2 /* NameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */; };
-		E2C88C4417AEEBBE003C2E41 /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2C88C4217AEEBBE003C2E41 /* GLES-Render.cpp */; };
-		E2F1D6B417AED15B005F4B58 /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */; };
-		E2F1D6B817AED1B0005F4B58 /* Npc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6B617AED1B0005F4B58 /* Npc.cpp */; };
+		E2B154C517BFA2020000A1BF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */; };
+		E2B154C617BFA2020000A1BF /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AF17BFA2020000A1BF /* ContactListener.cpp */; };
+		E2B154C717BFA2020000A1BF /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B117BFA2020000A1BF /* GameWorldScene.cpp */; };
+		E2B154C817BFA2020000A1BF /* GLES-Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B317BFA2020000A1BF /* GLES-Render.cpp */; };
+		E2B154C917BFA2020000A1BF /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B517BFA2020000A1BF /* Hero.cpp */; };
+		E2B154CA17BFA2020000A1BF /* Joystick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B717BFA2020000A1BF /* Joystick.cpp */; };
+		E2B154CB17BFA2020000A1BF /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B917BFA2020000A1BF /* MainMenuScene.cpp */; };
+		E2B154CC17BFA2020000A1BF /* MainMenuSceneLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154BB17BFA2020000A1BF /* MainMenuSceneLoader.cpp */; };
+		E2B154CD17BFA2020000A1BF /* NameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154BD17BFA2020000A1BF /* NameWorldScene.cpp */; };
+		E2B154CE17BFA2020000A1BF /* Npc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154BF17BFA2020000A1BF /* Npc.cpp */; };
+		E2B154CF17BFA2020000A1BF /* Option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154C117BFA2020000A1BF /* Option.cpp */; };
+		E2B154D017BFA2020000A1BF /* PhysicsWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154C317BFA2020000A1BF /* PhysicsWorldScene.cpp */; };
 		E2F1D6E617AEDFEB005F4B58 /* CCBProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6BB17AEDFEB005F4B58 /* CCBProxy.cpp */; };
 		E2F1D6E717AEDFEB005F4B58 /* CCLuaBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6BD17AEDFEB005F4B58 /* CCLuaBridge.cpp */; };
 		E2F1D6E817AEDFEB005F4B58 /* CCLuaEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D6BF17AEDFEB005F4B58 /* CCLuaEngine.cpp */; };
@@ -1028,13 +1028,9 @@
 		E20D0D3117A84DFF006AB5C2 /* cpSweep1D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSweep1D.c; sourceTree = "<group>"; };
 		E20D0D3217A84DFF006AB5C2 /* cpVect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpVect.c; sourceTree = "<group>"; };
 		E20D0D3317A84DFF006AB5C2 /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
-		E20D0D5517A85208006AB5C2 /* PhysicsWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicsWorldScene.cpp; path = Classes/PhysicsWorldScene.cpp; sourceTree = "<group>"; };
-		E20D0D5617A85208006AB5C2 /* PhysicsWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicsWorldScene.h; path = Classes/PhysicsWorldScene.h; sourceTree = "<group>"; };
 		E20D0D5817A8527B006AB5C2 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
 		E22BC36617A33ED900D4D586 /* joystick_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_background.png; path = Resources/joystick_background.png; sourceTree = "<group>"; };
 		E22BC36717A33ED900D4D586 /* joystick_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_thumb.png; path = Resources/joystick_thumb.png; sourceTree = "<group>"; };
-		E22BC36A17A33EEB00D4D586 /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Joystick.cpp; path = Classes/Joystick.cpp; sourceTree = "<group>"; };
-		E22BC36B17A33EEB00D4D586 /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Joystick.h; path = Classes/Joystick.h; sourceTree = "<group>"; };
 		E245313317A30F1D0000A9AE /* studygame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studygame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E245313617A30F1D0000A9AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E245313817A30F1D0000A9AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1062,27 +1058,31 @@
 		E245316417A30F1D0000A9AE /* RootViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = RootViewController.mm; path = ios/RootViewController.mm; sourceTree = "<group>"; };
 		E245316617A30F1D0000A9AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = "<group>"; };
 		E24534D617A30F230000A9AE /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		E24534D817A30F230000A9AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		E24534D917A30F230000A9AE /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		E24534E517A3139A0000A9AE /* MainMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuScene.cpp; path = Classes/MainMenuScene.cpp; sourceTree = "<group>"; };
-		E24534E617A3139A0000A9AE /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuScene.h; path = Classes/MainMenuScene.h; sourceTree = "<group>"; };
-		E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuSceneLoader.cpp; path = Classes/MainMenuSceneLoader.cpp; sourceTree = "<group>"; };
-		E24534E817A3139A0000A9AE /* MainMenuSceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuSceneLoader.h; path = Classes/MainMenuSceneLoader.h; sourceTree = "<group>"; };
-		E246750C17AEC395008DCF6E /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Hero.cpp; path = Classes/Hero.cpp; sourceTree = "<group>"; };
-		E246750D17AEC395008DCF6E /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hero.h; path = Classes/Hero.h; sourceTree = "<group>"; };
-		E26F917317A320A1006A638B /* GameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameWorldScene.cpp; path = Classes/GameWorldScene.cpp; sourceTree = "<group>"; };
-		E26F917417A320A1006A638B /* GameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameWorldScene.h; path = Classes/GameWorldScene.h; sourceTree = "<group>"; };
 		E299D0D117AE827C0017FD8A /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "../../CocosBuilder/StudyGame/Published-iOS"; sourceTree = "<group>"; };
-		E299D0D317AEBB2F0017FD8A /* Option.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Option.cpp; path = Classes/Option.cpp; sourceTree = "<group>"; };
-		E299D0D417AEBB2F0017FD8A /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Option.h; path = Classes/Option.h; sourceTree = "<group>"; };
-		E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NameWorldScene.cpp; path = Classes/NameWorldScene.cpp; sourceTree = "<group>"; };
-		E2A0E73A17A7F7CB0041AFE2 /* NameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NameWorldScene.h; path = Classes/NameWorldScene.h; sourceTree = "<group>"; };
-		E2C88C4217AEEBBE003C2E41 /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "GLES-Render.cpp"; path = "Classes/GLES-Render.cpp"; sourceTree = "<group>"; };
-		E2C88C4317AEEBBE003C2E41 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GLES-Render.h"; path = "Classes/GLES-Render.h"; sourceTree = "<group>"; };
-		E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContactListener.cpp; path = Classes/ContactListener.cpp; sourceTree = "<group>"; };
-		E2F1D6B317AED15B005F4B58 /* ContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactListener.h; path = Classes/ContactListener.h; sourceTree = "<group>"; };
-		E2F1D6B617AED1B0005F4B58 /* Npc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Npc.cpp; path = Classes/Npc.cpp; sourceTree = "<group>"; };
-		E2F1D6B717AED1B0005F4B58 /* Npc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Npc.h; path = Classes/Npc.h; sourceTree = "<group>"; };
+		E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		E2B154AE17BFA2020000A1BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2B154AF17BFA2020000A1BF /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContactListener.cpp; sourceTree = "<group>"; };
+		E2B154B017BFA2020000A1BF /* ContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactListener.h; sourceTree = "<group>"; };
+		E2B154B117BFA2020000A1BF /* GameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorldScene.cpp; sourceTree = "<group>"; };
+		E2B154B217BFA2020000A1BF /* GameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWorldScene.h; sourceTree = "<group>"; };
+		E2B154B317BFA2020000A1BF /* GLES-Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "GLES-Render.cpp"; sourceTree = "<group>"; };
+		E2B154B417BFA2020000A1BF /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
+		E2B154B517BFA2020000A1BF /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
+		E2B154B617BFA2020000A1BF /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		E2B154B717BFA2020000A1BF /* Joystick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Joystick.cpp; sourceTree = "<group>"; };
+		E2B154B817BFA2020000A1BF /* Joystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joystick.h; sourceTree = "<group>"; };
+		E2B154B917BFA2020000A1BF /* MainMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuScene.cpp; sourceTree = "<group>"; };
+		E2B154BA17BFA2020000A1BF /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		E2B154BB17BFA2020000A1BF /* MainMenuSceneLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenuSceneLoader.cpp; sourceTree = "<group>"; };
+		E2B154BC17BFA2020000A1BF /* MainMenuSceneLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuSceneLoader.h; sourceTree = "<group>"; };
+		E2B154BD17BFA2020000A1BF /* NameWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NameWorldScene.cpp; sourceTree = "<group>"; };
+		E2B154BE17BFA2020000A1BF /* NameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameWorldScene.h; sourceTree = "<group>"; };
+		E2B154BF17BFA2020000A1BF /* Npc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Npc.cpp; sourceTree = "<group>"; };
+		E2B154C017BFA2020000A1BF /* Npc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Npc.h; sourceTree = "<group>"; };
+		E2B154C117BFA2020000A1BF /* Option.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Option.cpp; sourceTree = "<group>"; };
+		E2B154C217BFA2020000A1BF /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option.h; sourceTree = "<group>"; };
+		E2B154C317BFA2020000A1BF /* PhysicsWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhysicsWorldScene.cpp; sourceTree = "<group>"; };
+		E2B154C417BFA2020000A1BF /* PhysicsWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsWorldScene.h; sourceTree = "<group>"; };
 		E2F1D6BB17AEDFEB005F4B58 /* CCBProxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCBProxy.cpp; sourceTree = "<group>"; };
 		E2F1D6BC17AEDFEB005F4B58 /* CCBProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBProxy.h; sourceTree = "<group>"; };
 		E2F1D6BD17AEDFEB005F4B58 /* CCLuaBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCLuaBridge.cpp; sourceTree = "<group>"; };
@@ -2414,6 +2414,7 @@
 		E245312A17A30F1D0000A9AE = {
 			isa = PBXGroup;
 			children = (
+				E2B154AC17BFA2020000A1BF /* Classes */,
 				E245314617A30F1D0000A9AE /* studygame */,
 				E245313517A30F1D0000A9AE /* Frameworks */,
 				E245313417A30F1D0000A9AE /* Products */,
@@ -2449,7 +2450,6 @@
 				E245314717A30F1D0000A9AE /* Resources */,
 				E245315F17A30F1D0000A9AE /* ios */,
 				E20D059017A84CB2006AB5C2 /* libs */,
-				E24534D717A30F230000A9AE /* Classes */,
 				E24534D517A30F230000A9AE /* Supporting Files */,
 			);
 			path = studygame;
@@ -2500,35 +2500,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E24534D717A30F230000A9AE /* Classes */ = {
+		E2B154AC17BFA2020000A1BF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E2C88C4217AEEBBE003C2E41 /* GLES-Render.cpp */,
-				E2C88C4317AEEBBE003C2E41 /* GLES-Render.h */,
-				E2F1D6B217AED15B005F4B58 /* ContactListener.cpp */,
-				E2F1D6B317AED15B005F4B58 /* ContactListener.h */,
-				E20D0D5517A85208006AB5C2 /* PhysicsWorldScene.cpp */,
-				E20D0D5617A85208006AB5C2 /* PhysicsWorldScene.h */,
-				E22BC36A17A33EEB00D4D586 /* Joystick.cpp */,
-				E22BC36B17A33EEB00D4D586 /* Joystick.h */,
-				E2A0E73917A7F7CB0041AFE2 /* NameWorldScene.cpp */,
-				E2A0E73A17A7F7CB0041AFE2 /* NameWorldScene.h */,
-				E26F917317A320A1006A638B /* GameWorldScene.cpp */,
-				E26F917417A320A1006A638B /* GameWorldScene.h */,
-				E24534D817A30F230000A9AE /* AppDelegate.h */,
-				E24534D917A30F230000A9AE /* AppDelegate.cpp */,
-				E24534E517A3139A0000A9AE /* MainMenuScene.cpp */,
-				E24534E617A3139A0000A9AE /* MainMenuScene.h */,
-				E24534E717A3139A0000A9AE /* MainMenuSceneLoader.cpp */,
-				E24534E817A3139A0000A9AE /* MainMenuSceneLoader.h */,
-				E299D0D317AEBB2F0017FD8A /* Option.cpp */,
-				E299D0D417AEBB2F0017FD8A /* Option.h */,
-				E246750C17AEC395008DCF6E /* Hero.cpp */,
-				E246750D17AEC395008DCF6E /* Hero.h */,
-				E2F1D6B617AED1B0005F4B58 /* Npc.cpp */,
-				E2F1D6B717AED1B0005F4B58 /* Npc.h */,
+				E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */,
+				E2B154AE17BFA2020000A1BF /* AppDelegate.h */,
+				E2B154AF17BFA2020000A1BF /* ContactListener.cpp */,
+				E2B154B017BFA2020000A1BF /* ContactListener.h */,
+				E2B154B117BFA2020000A1BF /* GameWorldScene.cpp */,
+				E2B154B217BFA2020000A1BF /* GameWorldScene.h */,
+				E2B154B317BFA2020000A1BF /* GLES-Render.cpp */,
+				E2B154B417BFA2020000A1BF /* GLES-Render.h */,
+				E2B154B517BFA2020000A1BF /* Hero.cpp */,
+				E2B154B617BFA2020000A1BF /* Hero.h */,
+				E2B154B717BFA2020000A1BF /* Joystick.cpp */,
+				E2B154B817BFA2020000A1BF /* Joystick.h */,
+				E2B154B917BFA2020000A1BF /* MainMenuScene.cpp */,
+				E2B154BA17BFA2020000A1BF /* MainMenuScene.h */,
+				E2B154BB17BFA2020000A1BF /* MainMenuSceneLoader.cpp */,
+				E2B154BC17BFA2020000A1BF /* MainMenuSceneLoader.h */,
+				E2B154BD17BFA2020000A1BF /* NameWorldScene.cpp */,
+				E2B154BE17BFA2020000A1BF /* NameWorldScene.h */,
+				E2B154BF17BFA2020000A1BF /* Npc.cpp */,
+				E2B154C017BFA2020000A1BF /* Npc.h */,
+				E2B154C117BFA2020000A1BF /* Option.cpp */,
+				E2B154C217BFA2020000A1BF /* Option.h */,
+				E2B154C317BFA2020000A1BF /* PhysicsWorldScene.cpp */,
+				E2B154C417BFA2020000A1BF /* PhysicsWorldScene.h */,
 			);
 			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 		E2F1D6B917AEDFEB005F4B58 /* lua */ = {
@@ -2770,6 +2771,7 @@
 				E20D08F917A84CB4006AB5C2 /* CCSpriteLoader.cpp in Sources */,
 				E20D0D4517A84DFF006AB5C2 /* cpArray.c in Sources */,
 				E20D08C917A84CB4006AB5C2 /* ioapi.cpp in Sources */,
+				E2B154D017BFA2020000A1BF /* PhysicsWorldScene.cpp in Sources */,
 				E20D088317A84CB3006AB5C2 /* utility.c in Sources */,
 				E20D08CE17A84CB4006AB5C2 /* CCTexture2D.cpp in Sources */,
 				E20D092D17A84CB4006AB5C2 /* SlotData.cpp in Sources */,
@@ -2786,11 +2788,11 @@
 				E20D08F617A84CB4006AB5C2 /* CCParticleSystemQuadLoader.cpp in Sources */,
 				E20D08E417A84CB4006AB5C2 /* CCBKeyframe.cpp in Sources */,
 				E20D087317A84CB3006AB5C2 /* cocos2d.cpp in Sources */,
-				E26F917517A320A1006A638B /* GameWorldScene.cpp in Sources */,
 				E20D08AB17A84CB4006AB5C2 /* EAGLView.mm in Sources */,
 				E20D088717A84CB3006AB5C2 /* CCKeypadDelegate.cpp in Sources */,
 				E20D091117A84CB4006AB5C2 /* CCSorting.cpp in Sources */,
 				E20D08DC17A84CB4006AB5C2 /* CDAudioManager.m in Sources */,
+				E2B154C917BFA2020000A1BF /* Hero.cpp in Sources */,
 				E20D083F17A84CB3006AB5C2 /* b2ChainAndCircleContact.cpp in Sources */,
 				E20D08C117A84CB4006AB5C2 /* CCVertex.cpp in Sources */,
 				E20D08F017A84CB4006AB5C2 /* CCLayerLoader.cpp in Sources */,
@@ -2814,6 +2816,7 @@
 				E20D08EA17A84CB4006AB5C2 /* CCControlLoader.cpp in Sources */,
 				E20D088017A84CB3006AB5C2 /* plane.c in Sources */,
 				E20D087D17A84CB3006AB5C2 /* mat3.c in Sources */,
+				E2B154CE17BFA2020000A1BF /* Npc.cpp in Sources */,
 				E20D083B17A84CB3006AB5C2 /* b2Fixture.cpp in Sources */,
 				E20D092E17A84CB4006AB5C2 /* spine-cocos2dx.cpp in Sources */,
 				E20D087F17A84CB3006AB5C2 /* neon_matrix_impl.c in Sources */,
@@ -2829,10 +2832,8 @@
 				E20D089A17A84CB3006AB5C2 /* CCParticleSystemQuad.cpp in Sources */,
 				E20D089D17A84CB3006AB5C2 /* CCImageCommonWebp.cpp in Sources */,
 				E20D08AD17A84CB4006AB5C2 /* platform.cpp in Sources */,
-				E246750E17AEC395008DCF6E /* Hero.cpp in Sources */,
 				E20D088F17A84CB3006AB5C2 /* CCTransitionPageTurn.cpp in Sources */,
 				E20D089B17A84CB3006AB5C2 /* CCEGLViewProtocol.cpp in Sources */,
-				E20D0D5717A85208006AB5C2 /* PhysicsWorldScene.cpp in Sources */,
 				E2F1D6F017AEDFEB005F4B58 /* tolua_fix.c in Sources */,
 				E20D0D3D17A84DFF006AB5C2 /* cpGrooveJoint.c in Sources */,
 				E20D086117A84CB3006AB5C2 /* CCAtlasNode.cpp in Sources */,
@@ -2854,14 +2855,13 @@
 				E20D085417A84CB3006AB5C2 /* CCAction.cpp in Sources */,
 				E20D08BF17A84CB4006AB5C2 /* ccUTF8.cpp in Sources */,
 				E20D08E217A84CB4006AB5C2 /* CCBAnimationManager.cpp in Sources */,
-				E299D0D517AEBB2F0017FD8A /* Option.cpp in Sources */,
 				E20D08DB17A84CB4006AB5C2 /* CCTouchHandler.cpp in Sources */,
 				E20D084E17A84CB3006AB5C2 /* b2PulleyJoint.cpp in Sources */,
 				E20D08B717A84CB4006AB5C2 /* CCSprite.cpp in Sources */,
 				E20D082F17A84CB3006AB5C2 /* b2ChainShape.cpp in Sources */,
-				E2C88C4417AEEBBE003C2E41 /* GLES-Render.cpp in Sources */,
 				E20D0D3F17A84DFF006AB5C2 /* cpPivotJoint.c in Sources */,
 				E2F1D6F517AEDFEB005F4B58 /* tolua_is.c in Sources */,
+				E2B154CF17BFA2020000A1BF /* Option.cpp in Sources */,
 				E20D08D417A84CB4006AB5C2 /* CCTileMapAtlas.cpp in Sources */,
 				E20D08C617A84CB4006AB5C2 /* tinyxml2.cpp in Sources */,
 				E20D0D5017A84DFF006AB5C2 /* cpSpaceQuery.c in Sources */,
@@ -2871,11 +2871,11 @@
 				E20D084517A84CB3006AB5C2 /* b2EdgeAndPolygonContact.cpp in Sources */,
 				E20D082B17A84CB3006AB5C2 /* b2Collision.cpp in Sources */,
 				E20D0D4217A84DFF006AB5C2 /* cpSimpleMotor.c in Sources */,
-				E2F1D6B417AED15B005F4B58 /* ContactListener.cpp in Sources */,
 				E20D087617A84CB3006AB5C2 /* CCGrabber.cpp in Sources */,
 				E20D085317A84CB3006AB5C2 /* b2Rope.cpp in Sources */,
 				E20D090417A84CB4006AB5C2 /* CCControlSlider.cpp in Sources */,
 				E20D08C217A84CB4006AB5C2 /* CCComponent.cpp in Sources */,
+				E2B154CD17BFA2020000A1BF /* NameWorldScene.cpp in Sources */,
 				E20D088517A84CB3006AB5C2 /* vec3.c in Sources */,
 				E20D08FD17A84CB4006AB5C2 /* CCInputDelegate.cpp in Sources */,
 				E20D083E17A84CB3006AB5C2 /* b2WorldCallbacks.cpp in Sources */,
@@ -2889,14 +2889,13 @@
 				E20D089C17A84CB3006AB5C2 /* CCFileUtils.cpp in Sources */,
 				E20D08BE17A84CB4006AB5C2 /* CCProfiling.cpp in Sources */,
 				E2F1D6F717AEDFEB005F4B58 /* tolua_push.c in Sources */,
+				E2B154C817BFA2020000A1BF /* GLES-Render.cpp in Sources */,
 				E20D08E017A84CB4006AB5C2 /* SimpleAudioEngine_objc.m in Sources */,
 				E20D084B17A84CB3006AB5C2 /* b2Joint.cpp in Sources */,
 				E20D087B17A84CB3006AB5C2 /* mat4stack.c in Sources */,
 				E20D08C317A84CB4006AB5C2 /* CCComponentContainer.cpp in Sources */,
-				E22BC36C17A33EEB00D4D586 /* Joystick.cpp in Sources */,
 				E20D091217A84CB4006AB5C2 /* CCTableView.cpp in Sources */,
 				E20D090917A84CB4006AB5C2 /* CCScale9Sprite.cpp in Sources */,
-				E2A0E73B17A7F7CB0041AFE2 /* NameWorldScene.cpp in Sources */,
 				E20D088E17A84CB3006AB5C2 /* CCTransition.cpp in Sources */,
 				E20D091F17A84CB4006AB5C2 /* Attachment.cpp in Sources */,
 				E20D092317A84CB4006AB5C2 /* CCSkeleton.cpp in Sources */,
@@ -2923,6 +2922,7 @@
 				E20D0D4E17A84DFF006AB5C2 /* cpSpaceComponent.c in Sources */,
 				E20D084C17A84CB3006AB5C2 /* b2MouseJoint.cpp in Sources */,
 				E20D093917A84D81006AB5C2 /* CCPhysicsSprite.cpp in Sources */,
+				E2B154C717BFA2020000A1BF /* GameWorldScene.cpp in Sources */,
 				E20D08EF17A84CB4006AB5C2 /* CCLayerGradientLoader.cpp in Sources */,
 				E20D08E617A84CB4006AB5C2 /* CCBSequence.cpp in Sources */,
 				E2F1D6EB17AEDFEB005F4B58 /* Cocos2dxLuaLoader.cpp in Sources */,
@@ -2932,7 +2932,6 @@
 				E20D08F117A84CB4006AB5C2 /* CCMenuItemImageLoader.cpp in Sources */,
 				E20D0D4C17A84DFF006AB5C2 /* cpShape.c in Sources */,
 				E20D084117A84CB3006AB5C2 /* b2CircleContact.cpp in Sources */,
-				E24534E917A3139A0000A9AE /* MainMenuScene.cpp in Sources */,
 				E20D090817A84CB4006AB5C2 /* CCInvocation.cpp in Sources */,
 				E20D0D4B17A84DFF006AB5C2 /* cpPolyShape.c in Sources */,
 				E20D085717A84CB3006AB5C2 /* CCActionEase.cpp in Sources */,
@@ -2991,7 +2990,6 @@
 				E20D08F217A84CB4006AB5C2 /* CCMenuItemLoader.cpp in Sources */,
 				E20D082D17A84CB3006AB5C2 /* b2DynamicTree.cpp in Sources */,
 				E20D086B17A84CB3006AB5C2 /* CCDataVisitor.cpp in Sources */,
-				E2F1D6B817AED1B0005F4B58 /* Npc.cpp in Sources */,
 				E20D082817A84CB3006AB5C2 /* b2CollideCircle.cpp in Sources */,
 				E20D083417A84CB3006AB5C2 /* b2Draw.cpp in Sources */,
 				E20D08A117A84CB3006AB5C2 /* CCApplication.mm in Sources */,
@@ -2999,8 +2997,10 @@
 				E20D0D3A17A84DFF006AB5C2 /* cpDampedRotarySpring.c in Sources */,
 				E20D086C17A84CB3006AB5C2 /* CCDictionary.cpp in Sources */,
 				E20D0D4F17A84DFF006AB5C2 /* cpSpaceHash.c in Sources */,
+				E2B154CB17BFA2020000A1BF /* MainMenuScene.cpp in Sources */,
 				E20D090617A84CB4006AB5C2 /* CCControlSwitch.cpp in Sources */,
 				E20D08D317A84CB4006AB5C2 /* CCParallaxNode.cpp in Sources */,
+				E2B154C617BFA2020000A1BF /* ContactListener.cpp in Sources */,
 				E2F1D6EA17AEDFEB005F4B58 /* CCLuaValue.cpp in Sources */,
 				E20D08EC17A84CB4006AB5C2 /* CCLabelBMFontLoader.cpp in Sources */,
 				E20D08CB17A84CB4006AB5C2 /* ZipUtils.cpp in Sources */,
@@ -3014,7 +3014,6 @@
 				E20D085817A84CB3006AB5C2 /* CCActionGrid.cpp in Sources */,
 				E20D08FC17A84CB4006AB5C2 /* CCComController.cpp in Sources */,
 				E20D083117A84CB3006AB5C2 /* b2EdgeShape.cpp in Sources */,
-				E24534EA17A3139A0000A9AE /* MainMenuSceneLoader.cpp in Sources */,
 				E20D088B17A84CB3006AB5C2 /* CCLabelTTF.cpp in Sources */,
 				E20D089317A84CB3006AB5C2 /* CCClippingNode.cpp in Sources */,
 				E2F1D6EC17AEDFEB005F4B58 /* Lua_extensions_CCB.cpp in Sources */,
@@ -3030,16 +3029,17 @@
 				E20D08B117A84CB4006AB5C2 /* CCGLProgram.cpp in Sources */,
 				E20D08C517A84CB4006AB5C2 /* TGAlib.cpp in Sources */,
 				E20D083017A84CB3006AB5C2 /* b2CircleShape.cpp in Sources */,
-				E24534DA17A30F230000A9AE /* AppDelegate.cpp in Sources */,
 				E20D08BA17A84CB4006AB5C2 /* CCSpriteFrameCache.cpp in Sources */,
 				E20D090017A84CB4006AB5C2 /* CCControlColourPicker.cpp in Sources */,
 				E2F1D6EE17AEDFEB005F4B58 /* LuaCocos2d.cpp in Sources */,
+				E2B154CA17BFA2020000A1BF /* Joystick.cpp in Sources */,
 				E20D08FF17A84CB4006AB5C2 /* CCControlButton.cpp in Sources */,
 				E20D084217A84CB3006AB5C2 /* b2Contact.cpp in Sources */,
 				E20D084A17A84CB3006AB5C2 /* b2GearJoint.cpp in Sources */,
 				E20D088C17A84CB3006AB5C2 /* CCLayer.cpp in Sources */,
 				E20D092417A84CB4006AB5C2 /* CCSkeletonAnimation.cpp in Sources */,
 				E2F1D6E717AEDFEB005F4B58 /* CCLuaBridge.cpp in Sources */,
+				E2B154CC17BFA2020000A1BF /* MainMenuSceneLoader.cpp in Sources */,
 				E20D08C417A84CB4006AB5C2 /* ccCArray.cpp in Sources */,
 				E20D088117A84CB3006AB5C2 /* quaternion.c in Sources */,
 				E20D0D3717A84DFF006AB5C2 /* chipmunk.c in Sources */,
@@ -3047,6 +3047,7 @@
 				E20D085F17A84CB3006AB5C2 /* CCActionTiledGrid.cpp in Sources */,
 				E20D0D5217A84DFF006AB5C2 /* cpSpatialIndex.c in Sources */,
 				E20D089917A84CB3006AB5C2 /* CCParticleSystem.cpp in Sources */,
+				E2B154C517BFA2020000A1BF /* AppDelegate.cpp in Sources */,
 				E20D083917A84CB3006AB5C2 /* b2Body.cpp in Sources */,
 				E20D091A17A84CB4006AB5C2 /* Animation.cpp in Sources */,
 				E20D08E817A84CB4006AB5C2 /* CCBValue.cpp in Sources */,
