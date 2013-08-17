@@ -11,6 +11,7 @@ SOURCES = Main.cpp          ../Classes/Option.cpp \
           ../Classes/NameWorldScene.cpp \
           ../Classes/AppDelegate.cpp \
           ../Classes/MainMenuSceneLoader.cpp \
+          ../Classes/Logic/Profession.cpp \
           ../Classes/PhysicsWorldScene.cpp
 
 COCOS_ROOT = /usr/include/cocos2dx
