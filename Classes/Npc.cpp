@@ -51,11 +51,11 @@ bool Npc::isDirty(void)
 
 void Npc::update(float dt)
 {
-    CCSize s = CCDirector::sharedDirector()->getWinSize();
-    float pForce = 10;
-    b2Vec2 forceDir = b2Vec2( ( (s.width/2+200)/PTM_RATIO - m_pBody->GetPosition().x ) * pForce  ,
-                             ( s.height/2/PTM_RATIO - m_pBody->GetPosition().y ) * pForce );
-    m_pBody->ApplyForceToCenter(forceDir);
+    //CCSize s = CCDirector::sharedDirector()->getWinSize();
+    //float pForce = 10;
+    //b2Vec2 forceDir = b2Vec2( ( (s.width/2+200)/PTM_RATIO - m_pBody->GetPosition().x ) * pForce  ,
+    //                         ( s.height/2/PTM_RATIO - m_pBody->GetPosition().y ) * pForce );
+    //m_pBody->ApplyForceToCenter(forceDir);
 }
 
 void Npc::kick()

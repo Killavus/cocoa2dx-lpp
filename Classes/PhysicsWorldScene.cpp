@@ -60,7 +60,7 @@ void PsysicsWorld::initPhysics()
     b2Vec2 gravity;
     gravity.Set(0.0f, 0.0f);
     world = new b2World(gravity);
-
+    
     // Do we want to let bodies sleep?
     world->SetAllowSleeping(true);
     
@@ -77,7 +77,8 @@ void PsysicsWorld::initPhysics()
     //        flags += b2Draw::e_centerOfMassBit;
     m_debugDraw->SetFlags(flags);
 
-    
+    /*
+     
     // Define the ground body.
     b2BodyDef groundBodyDef;
     groundBodyDef.position.Set(0, 0); // bottom-left corner
@@ -107,10 +108,16 @@ void PsysicsWorld::initPhysics()
     groundBox.Set(b2Vec2(s.width/PTM_RATIO,s.height/PTM_RATIO), b2Vec2(s.width/PTM_RATIO,0));
     groundBody->CreateFixture(&groundBox,0);
      
+     */
     
     CContactListener* contactListener = new CContactListener();
     world->SetContactListener(contactListener);
- 
+    schedule( schedule_selector(PsysicsWorld::updateCamera), 1.0f );
+}
+
+void PsysicsWorld::updateCamera(CCTime dt)
+{
+    CCLog("updateCamera");
 
 }
 
@@ -133,8 +140,8 @@ void PsysicsWorld::draw()
 }
 
 void PsysicsWorld::addNewSprite()
-{    
-    CCSprite *image = CCSprite::create("0.png");
+{
+    image = CCSprite::create("0.png");
     m_pSpriteTexture = image->getTexture();
     hero = new Hero();
     hero->initWithTexture(m_pSpriteTexture);

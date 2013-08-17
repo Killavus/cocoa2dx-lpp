@@ -332,6 +332,7 @@
 		E245316517A30F1D0000A9AE /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316417A30F1D0000A9AE /* RootViewController.mm */; };
 		E245316717A30F1D0000A9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E245316617A30F1D0000A9AE /* main.m */; };
 		E299D0D217AE827D0017FD8A /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E299D0D117AE827C0017FD8A /* Published-iOS */; };
+		E29F8B2517C024FB001CA70C /* Logic in Resources */ = {isa = PBXBuildFile; fileRef = E29F8B2417C024FB001CA70C /* Logic */; };
 		E2B154C517BFA2020000A1BF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */; };
 		E2B154C617BFA2020000A1BF /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AF17BFA2020000A1BF /* ContactListener.cpp */; };
 		E2B154C717BFA2020000A1BF /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B117BFA2020000A1BF /* GameWorldScene.cpp */; };
@@ -1059,6 +1060,7 @@
 		E245316617A30F1D0000A9AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = "<group>"; };
 		E24534D617A30F230000A9AE /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		E299D0D117AE827C0017FD8A /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "../../CocosBuilder/StudyGame/Published-iOS"; sourceTree = "<group>"; };
+		E29F8B2417C024FB001CA70C /* Logic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Logic; sourceTree = "<group>"; };
 		E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		E2B154AE17BFA2020000A1BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2B154AF17BFA2020000A1BF /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContactListener.cpp; sourceTree = "<group>"; };
@@ -2503,6 +2505,7 @@
 		E2B154AC17BFA2020000A1BF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E29F8B2417C024FB001CA70C /* Logic */,
 				E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */,
 				E2B154AE17BFA2020000A1BF /* AppDelegate.h */,
 				E2B154AF17BFA2020000A1BF /* ContactListener.cpp */,
@@ -2722,6 +2725,7 @@
 				E20D087917A84CB3006AB5C2 /* ChangeLog in Resources */,
 				E299D0D217AE827D0017FD8A /* Published-iOS in Resources */,
 				E245314B17A30F1D0000A9AE /* CloseSelected.png in Resources */,
+				E29F8B2517C024FB001CA70C /* Logic in Resources */,
 				E20D0D3517A84DFF006AB5C2 /* LICENSE.txt in Resources */,
 				E2F1D6FA17AEE005005F4B58 /* hello.lua in Resources */,
 				E20D087A17A84CB3006AB5C2 /* CMakeLists.txt in Resources */,

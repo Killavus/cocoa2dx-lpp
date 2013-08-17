@@ -43,8 +43,6 @@ void CContactListener::EndContact(b2Contact* contact)
     b2Fixture* figure1 = contact->GetFixtureA();
     b2Fixture* figure2 = contact->GetFixtureB();
     if (figure1->GetType()==figure2->GetType()){
-        std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello2.lua");
-        pEngine->executeScriptFile(path.c_str());
     }
     ContactData Contact = { contact->GetFixtureA(), contact->GetFixtureB() };
     std::vector<ContactData>::iterator pos;

@@ -32,6 +32,7 @@ public:
     // adds a new sprite at a given coordinate
     void addNewSprite();
 
+    void updateCamera(CCTime dt);
     virtual void draw();
     void update(float dt);
     void menuCloseCallback(CCObject* pSender);
@@ -50,6 +51,7 @@ private:
     Npc* npc;
     CContactListener* contactListener;
     GLESDebugDraw *m_debugDraw;
+    CCSprite *image;
 
 };
 

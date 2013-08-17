@@ -23,9 +23,11 @@ local function main()
     local sceneGame = CCDirector:sharedDirector():getRunningScene()
     local visibleSize = CCDirector:sharedDirector():getVisibleSize()
     cclog(visibleSize.height)
-    local bg = CCSprite:create("HelloWorld.png")
-    bg:setPosition(visibleSize.width/2,visibleSize.height/2)
-    sceneGame:addChild(bg,-1)
+
+    local text = CCLabelTTF:create("Witaj w moim sklepie","Tahoma",32)
+    text:setPosition(visibleSize.width/2,50)
+    sceneGame:addChild(text,20,1)
+                                                          
 end
 
 xpcall(main, __G__TRACKBACK__)

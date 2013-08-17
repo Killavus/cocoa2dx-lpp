@@ -23,7 +23,7 @@ void Hero::setWorld(b2World * world)
     // Define the dynamic body.
     //Set up a 1m squared box in the physics world
     b2BodyDef bodyDef;
-    bodyDef.type = b2_dynamicBody;
+    bodyDef.type = b2_kinematicBody;
     CCSize s = CCDirector::sharedDirector()->getWinSize();
     bodyDef.position.Set(s.width/2/PTM_RATIO, s.height/2/PTM_RATIO);
     
@@ -60,7 +60,16 @@ void Hero::update(float dt)
     } else if(vx>0) {
         this->setFlipX(false);
     }
-    m_pBody->SetLinearVelocity(b2Vec2(vx,vy)+m_pBody->GetLinearVelocity());
+    for ( b2Body* b = m_pWorld->GetBodyList(); b; b = b->GetNext())
+    {
+        if (b==m_pBody) {
+            
+        }else{
+            //b->SetLinearVelocity(b2Vec2(-vx,-vy)+b->GetLinearVelocity());
+            b->SetLinearVelocity(b2Vec2(-vx,-vy));
+        }
+    }
+    //m_pBody->SetLinearVelocity(b2Vec2(vx,vy)+m_pBody->GetLinearVelocity());
     
     // rotation ball by direction
     // b2Vec2 vec = m_pBody->GetLinearVelocity();
