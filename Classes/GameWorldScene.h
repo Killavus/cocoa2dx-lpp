@@ -2,8 +2,12 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
+#include "cocos-ext.h"
 #include "Joystick.h"
 #include "PhysicsWorldScene.h"
+
+using namespace cocos2d;
+using namespace cocos2d::extension;
 
 class GameWorld : public cocos2d::CCLayer
 {
