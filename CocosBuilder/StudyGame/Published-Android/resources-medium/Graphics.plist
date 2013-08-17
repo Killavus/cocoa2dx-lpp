@@ -7,11 +7,11 @@
 		<key>Graphics/DE.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{77, 1}, {36, 24}}</string>
+			<string>{{53, 73}, {36, 24}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {36, 24}}</string>
 			<key>sourceSize</key>
@@ -20,11 +20,11 @@
 		<key>Graphics/GB.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{39, 1}, {36, 24}}</string>
+			<string>{{27, 73}, {36, 24}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {36, 24}}</string>
 			<key>sourceSize</key>
@@ -33,11 +33,11 @@
 		<key>Graphics/PL.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1}, {36, 24}}</string>
+			<string>{{1, 73}, {36, 24}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {36, 24}}</string>
 			<key>sourceSize</key>
@@ -46,11 +46,11 @@
 		<key>Graphics/blank_background.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{126, 1}, {-191, -39}}</string>
+			<string>{{21, 126}, {-191, -39}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{191, 39}, {-191, -39}}</string>
 			<key>sourceSize</key>
@@ -59,7 +59,7 @@
 		<key>Graphics/facebook.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 50}, {21, 21}}</string>
+			<string>{{102, 1}, {21, 21}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -72,7 +72,7 @@
 		<key>Graphics/nosound.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{115, 1}, {9, 13}}</string>
+			<string>{{21, 111}, {9, 13}}</string>
 			<key>offset</key>
 			<string>{-4, 0}</string>
 			<key>rotated</key>
@@ -82,14 +82,27 @@
 			<key>sourceSize</key>
 			<string>{18, 16}</string>
 		</dict>
-		<key>Graphics/sound.png</key>
+		<key>Graphics/options_bt_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 73}, {18, 16}}</string>
+			<string>{{1, 1}, {66, 70}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {66, 70}}</string>
+			<key>sourceSize</key>
+			<string>{66, 70}</string>
+		</dict>
+		<key>Graphics/sound.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 111}, {18, 16}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {18, 16}}</string>
 			<key>sourceSize</key>
@@ -98,7 +111,7 @@
 		<key>Graphics/twitter.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 27}, {21, 21}}</string>
+			<string>{{79, 1}, {21, 21}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
