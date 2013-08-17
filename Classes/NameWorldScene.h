@@ -6,7 +6,7 @@
 using namespace cocos2d;
 using namespace cocos2d::extension;
 
-class NameWorld : public cocos2d::CCLayer, public cocos2d::extension::CCEditBoxDelegate
+class NameWorld : public cocos2d::CCLayer
 {
 public:
     // Method 'init' in cocos2d-x returns bool, instead of 'id' in cocos2d-iphone (an object pointer)
@@ -21,10 +21,5 @@ public:
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(NameWorld);
     
-    void menuNameCallback();
-    
-    virtual void editBoxEditingDidBegin(cocos2d::extension::CCEditBox* editBox);
-    virtual void editBoxEditingDidEnd(cocos2d::extension::CCEditBox* editBox);
-    virtual void editBoxTextChanged(cocos2d::extension::CCEditBox* editBox, const std::string& text);
-    virtual void editBoxReturn(cocos2d::extension::CCEditBox* editBox);
+    void menuNameCallback();    
 };
