@@ -11,6 +11,7 @@
 #include "cocos2d.h"
 #include "SimpleAudioEngine.h"
 #include "MainMenuScene.h"
+
 #include "../platform/CCFileUtils.h"
 
 
@@ -98,7 +99,7 @@ bool AppDelegate::applicationDidFinishLaunching()
         
         CCFileUtils::sharedFileUtils()->setSearchResolutionsOrder(resDirOrders);
     }
-    else if (platform == kTargetAndroid || platform == kTargetWindows)
+    else if (platform == kTargetAndroid)
     {   
         if (screenSize.width > 960)
         {
@@ -128,7 +129,7 @@ bool AppDelegate::applicationDidFinishLaunching()
         
         CCFileUtils::sharedFileUtils()->setSearchResolutionsOrder(resDirOrders);
     }
-    else if (platform == kTargetLinux) {
+	else if (platform == kTargetLinux || platform == kTargetWindows) {
         searchPaths.push_back("Published-iOS"); // Resources/Published-iOS
         CCFileUtils::sharedFileUtils()->setSearchPaths(searchPaths);
         
@@ -180,7 +181,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     }
     
     // create a scene. it's an autorelease object
-    CCScene *pScene = MainMenuScene::scene();
+	CCScene *pScene = MainMenuScene::scene();
     
     // run
     pDirector->runWithScene(pScene);

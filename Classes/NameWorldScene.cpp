@@ -53,7 +53,7 @@ bool NameWorld::init()
     return true;
 }
 
-void NameWorld::menuNameCallback()
+void NameWorld::menuNameCallback(CCObject* pSender)
 {
     CCLog("PressedPlay");
     CCScene *gameScene = GameWorld::scene();

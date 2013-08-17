@@ -51,7 +51,7 @@ bool MainMenuScene::onAssignCCBCustomProperty(cocos2d::CCObject *pTarget, const 
 
 bool MainMenuScene::onAssignCCBMemberVariable(cocos2d::CCObject *pTarget, const char *pMemberVariableName, cocos2d::CCNode *pNode)
 {
-    CCB_MEMBERVARIABLEASSIGNER_GLUE(this, "cPlayLabel", CCLabelTTF*, playLabel);
+    //CCB_MEMBERVARIABLEASSIGNER_GLUE(this, "cPlayLabel", CCLabelTTF*, playLabel);
 
     return false;
 }

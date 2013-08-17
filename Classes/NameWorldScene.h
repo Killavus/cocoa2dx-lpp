@@ -21,5 +21,5 @@ public:
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(NameWorld);
     
-    void menuNameCallback();    
+    void menuNameCallback(CCObject* pSender);    
 };
