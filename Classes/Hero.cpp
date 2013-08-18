@@ -23,15 +23,23 @@ void Hero::setWorld(b2World * world)
     // Define the dynamic body.
     //Set up a 1m squared box in the physics world
     b2BodyDef bodyDef;
-    bodyDef.type = b2_kinematicBody;
+    bodyDef.type = b2_dynamicBody;
     CCSize s = CCDirector::sharedDirector()->getWinSize();
     bodyDef.position.Set(s.width/2/PTM_RATIO, s.height/2/PTM_RATIO);
     
     m_pBody = m_pWorld->CreateBody(&bodyDef);
     
+    b2Vec2 vertices[2];
+    
+    vertices[0].Set(1, 1);
+    vertices[1].Set(.1,0);
+    vertices[2].Set(.0,-1);
+    vertices[3].Set(0,.5);
+
+    
     // Define another box shape for our dynamic body.
     b2PolygonShape dynamicBox;
-    dynamicBox.SetAsBox(.5f, .5f);//These are mid points for our 1m box
+    dynamicBox.Set(vertices, 5);
     
     // Define the dynamic body fixture.
     b2FixtureDef fixtureDef;
@@ -62,12 +70,13 @@ void Hero::update(float dt)
     }
     for ( b2Body* b = m_pWorld->GetBodyList(); b; b = b->GetNext())
     {
-        if (b==m_pBody) {
-            
-        }else{
+        if (b!=m_pBody) {
             //b->SetLinearVelocity(b2Vec2(-vx,-vy)+b->GetLinearVelocity());
             b->SetLinearVelocity(b2Vec2(-vx,-vy));
+        } else {
+            
         }
+        
     }
     //m_pBody->SetLinearVelocity(b2Vec2(vx,vy)+m_pBody->GetLinearVelocity());
     
