@@ -23,20 +23,6 @@ PsysicsWorld::PsysicsWorld()
     addNewSprite();
 
     scheduleUpdate();
-    
-    CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
-                                                          "button1_inactive.png",
-                                                          "button1_inactive.png",
-                                                          this,
-                                                          menu_selector(PsysicsWorld::menuCloseCallback) );
-    pCloseItem->setPosition( ccp(CCDirector::sharedDirector()->getWinSize().width - 50,CCDirector::sharedDirector()->getWinSize().height - 50) );
-    
-    // create menu, it's an autorelease object
-    CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
-    pMenu->setPosition( CCPointZero );
-    this->addChild(pMenu, 1);
-    
-    
 }
 
 PsysicsWorld::~PsysicsWorld()
@@ -49,9 +35,6 @@ PsysicsWorld::~PsysicsWorld()
 
 void PsysicsWorld::initPhysics()
 {
-    isComplited=true;
-    setView=true;
-    
     joy = Joystick::create();
     this->addChild(joy);
     
@@ -234,35 +217,6 @@ void PsysicsWorld::update(float dt)
             myActor->setRotation( -1 * CC_RADIANS_TO_DEGREES(b->GetAngle()) );
         }    
     }
-}
-
-void PsysicsWorld::menuCloseCallback(CCObject* pSender)
-{
-    if( isComplited) {
-        isComplited=false;
-        if(setView){
-            setView=false;
-            this->removeChild(menuNode);
-            CCNodeLoaderLibrary* nodeLoaderLibrary;
-            nodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
-            CCBReader* ccbReader = new CCBReader(nodeLoaderLibrary);
-            menuNode = ccbReader->readNodeGraphFromFile("Menu.ccbi",this);
-            this->addChild(menuNode);
-            animationManager = (CCBAnimationManager*)menuNode->getUserObject();
-            animationManager->runAnimationsForSequenceNamed("Start");
-            animationManager->setAnimationCompletedCallback(this, callfunc_selector(PsysicsWorld::animationCompleteCallback));
-        } else {
-            setView=true;
-            animationManager = (CCBAnimationManager*)menuNode->getUserObject();
-            animationManager->runAnimationsForSequenceNamed("Stop");
-            animationManager->setAnimationCompletedCallback(this, callfunc_selector(PsysicsWorld::animationCompleteCallback));
-        }
-    }
-}
-
-
-void PsysicsWorld::animationCompleteCallback(){
-    isComplited=true;
 }
 
 CCScene* PsysicsWorld::scene()

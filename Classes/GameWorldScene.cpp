@@ -41,13 +41,18 @@ bool GameWorld::init()
     // ask director the window size
     CCSize size = CCDirector::sharedDirector()->getWinSize();
     
+    isComplited=true;
+    setView=true;
+    
     return true;
 }
 
 SEL_MenuHandler GameWorld::onResolveCCBCCMenuItemSelector(cocos2d::CCObject *pTarget, const char *pSelectorName)
 {
 
-    
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedMenu:", GameWorld::menuCloseCallback);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedBack:", GameWorld::pressedBack);
+
     return NULL;
 }
 
@@ -68,4 +73,39 @@ bool GameWorld::onAssignCCBMemberVariable(cocos2d::CCObject *pTarget, const char
     return false;
 }
 
+void GameWorld::pressedBack(CCObject* pSender)
+{
+    CCDirector::sharedDirector()->end();
+    
+    #if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+        exit(0);
+    #endif
+}
 
+void GameWorld::menuCloseCallback(CCObject* pSender)
+{
+    if( isComplited) {
+        isComplited=false;
+        if(setView){
+            setView=false;
+            this->removeChild(menuNode);
+            CCNodeLoaderLibrary* nodeLoaderLibrary;
+            nodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
+            CCBReader* ccbReader = new CCBReader(nodeLoaderLibrary);
+            menuNode = ccbReader->readNodeGraphFromFile("Menu.ccbi",this);
+            this->addChild(menuNode);
+            animationManager = (CCBAnimationManager*)menuNode->getUserObject();
+            animationManager->runAnimationsForSequenceNamed("Start");
+            animationManager->setAnimationCompletedCallback(this, callfunc_selector(GameWorld::animationCompleteCallback));
+        } else {
+            setView=true;
+            animationManager = (CCBAnimationManager*)menuNode->getUserObject();
+            animationManager->runAnimationsForSequenceNamed("Stop");
+            animationManager->setAnimationCompletedCallback(this, callfunc_selector(GameWorld::animationCompleteCallback));
+        }
+    }
+}
+
+void GameWorld::animationCompleteCallback(){
+    isComplited=true;
+}

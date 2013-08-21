@@ -1,11 +1,10 @@
-#ifndef __HELLOWORLD_SCENE_H__
-#define __HELLOWORLD_SCENE_H__
+#ifndef __GAMEWORLD_SCENE_H__
+#define __GAMEWORLD_SCENE_H__
 
 #include "cocos2d.h"
 #include "cocos-ext.h"
 #include "Joystick.h"
 #include "PhysicsWorldScene.h"
-
 
 using namespace cocos2d;
 using namespace cocos2d::extension;
@@ -13,7 +12,12 @@ using namespace cocos2d::extension;
 class GameWorld : public cocos2d::CCLayer,public cocos2d::extension::CCBMemberVariableAssigner, public cocos2d::extension::CCBSelectorResolver
 {
 private:
+    bool isComplited;
+    bool setView;
     CCLabelTTF* nameLabel;
+    CCBAnimationManager* animationManager;
+    CCNode* menuNode;
+
 public:
     // Method 'init' in cocos2d-x returns bool, instead of 'id' in cocos2d-iphone (an object pointer)
     virtual bool init();
@@ -29,6 +33,11 @@ public:
 
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(GameWorld);
+    
+    void menuCloseCallback(CCObject* pSender);
+    void pressedBack(CCObject* pSender);
+
+    void animationCompleteCallback();
 };
 
-#endif // __HELLOWORLD_SCENE_H__
+#endif // __GAMEWORLD_SCENE_H__

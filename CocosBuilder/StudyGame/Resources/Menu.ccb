@@ -1193,7 +1193,7 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string>pressedSetInterval:</string>
+									<string>pressedBack:</string>
 									<integer>2</integer>
 								</array>
 							</dict>
@@ -1239,6 +1239,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 						<key>seqExpanded</key>
 						<true/>
 					</dict>
