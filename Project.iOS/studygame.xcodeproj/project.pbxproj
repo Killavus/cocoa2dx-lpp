@@ -33,7 +33,6 @@
 		E245316217A30F1D0000A9AE /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316117A30F1D0000A9AE /* AppController.mm */; };
 		E245316517A30F1D0000A9AE /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316417A30F1D0000A9AE /* RootViewController.mm */; };
 		E245316717A30F1D0000A9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E245316617A30F1D0000A9AE /* main.m */; };
-		E29F8B2517C024FB001CA70C /* Logic in Resources */ = {isa = PBXBuildFile; fileRef = E29F8B2417C024FB001CA70C /* Logic */; };
 		E2B154C517BFA2020000A1BF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */; };
 		E2B154C617BFA2020000A1BF /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AF17BFA2020000A1BF /* ContactListener.cpp */; };
 		E2B154C717BFA2020000A1BF /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B117BFA2020000A1BF /* GameWorldScene.cpp */; };
@@ -364,6 +363,7 @@
 		E2CC5BF417C50AC700D0210E /* tolua_push.c in Sources */ = {isa = PBXBuildFile; fileRef = E2CC5BC017C50AC700D0210E /* tolua_push.c */; };
 		E2CC5BF517C50AC700D0210E /* tolua_to.c in Sources */ = {isa = PBXBuildFile; fileRef = E2CC5BC117C50AC700D0210E /* tolua_to.c */; };
 		E2CC5BF917C5130A00D0210E /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = E2CC5BF817C5130A00D0210E /* Published-iOS */; };
+		E2CC5C0517C5239C00D0210E /* Logic in Resources */ = {isa = PBXBuildFile; fileRef = E2CC5C0417C5239C00D0210E /* Logic */; };
 		E2F1D6FA17AEE005005F4B58 /* hello.lua in Resources */ = {isa = PBXBuildFile; fileRef = E2F1D6F917AEE005005F4B58 /* hello.lua */; };
 /* End PBXBuildFile section */
 
@@ -409,7 +409,6 @@
 		E245316417A30F1D0000A9AE /* RootViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = RootViewController.mm; path = ios/RootViewController.mm; sourceTree = "<group>"; };
 		E245316617A30F1D0000A9AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = "<group>"; };
 		E24534D617A30F230000A9AE /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		E29F8B2417C024FB001CA70C /* Logic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Logic; sourceTree = "<group>"; };
 		E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		E2B154AE17BFA2020000A1BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2B154AF17BFA2020000A1BF /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContactListener.cpp; sourceTree = "<group>"; };
@@ -1121,6 +1120,7 @@
 		E2CC5BC017C50AC700D0210E /* tolua_push.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_push.c; sourceTree = "<group>"; };
 		E2CC5BC117C50AC700D0210E /* tolua_to.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_to.c; sourceTree = "<group>"; };
 		E2CC5BF817C5130A00D0210E /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "../../Resources/Published-iOS"; sourceTree = "<group>"; };
+		E2CC5C0417C5239C00D0210E /* Logic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Logic; sourceTree = "<group>"; };
 		E2F1D6F917AEE005005F4B58 /* hello.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hello.lua; path = Resources/hello.lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1239,7 +1239,7 @@
 		E2B154AC17BFA2020000A1BF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E29F8B2417C024FB001CA70C /* Logic */,
+				E2CC5C0417C5239C00D0210E /* Logic */,
 				E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */,
 				E2B154AE17BFA2020000A1BF /* AppDelegate.h */,
 				E2B154AF17BFA2020000A1BF /* ContactListener.cpp */,
@@ -2725,9 +2725,9 @@
 				E245314D17A30F1D0000A9AE /* Default.png in Resources */,
 				E2CC5BC317C50AC700D0210E /* LICENSE.txt in Resources */,
 				E2CC5A9917C50A9000D0210E /* ChangeLog in Resources */,
+				E2CC5C0517C5239C00D0210E /* Logic in Resources */,
 				E2CC5BC417C50AC700D0210E /* README.txt in Resources */,
 				E245314B17A30F1D0000A9AE /* CloseSelected.png in Resources */,
-				E29F8B2517C024FB001CA70C /* Logic in Resources */,
 				E2F1D6FA17AEE005005F4B58 /* hello.lua in Resources */,
 				E2CC5BF017C50AC700D0210E /* CCBReaderLoad.lua in Resources */,
 				E245315B17A30F1D0000A9AE /* Icon@2x.png in Resources */,

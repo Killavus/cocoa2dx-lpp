@@ -173,7 +173,6 @@ void PsysicsWorld::addNewSprite()
     
     CCSize s = CCDirector::sharedDirector()->getWinSize();
     hero->setPosition( ccp(s.width/2, s.height/2) );
-    hero->setAnchorPoint(ccp(0,0));
     hero->setWorld(world);
  
     hero->setJoystick(joy);

@@ -24,6 +24,7 @@ void MainMenuScene::onEnter()
     CCLayer::onEnter();
     this->scheduleUpdate();
     this->setTouchEnabled(true);
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("Music/background.mp3");
 }
 
 

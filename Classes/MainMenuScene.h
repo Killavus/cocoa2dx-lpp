@@ -14,6 +14,7 @@
 #include "cocos2d.h"
 #include "cocos-ext.h"
 #include "NameWorldScene.h"
+#include "SimpleAudioEngine.h"
 
 using namespace cocos2d;
 using namespace cocos2d::extension;
