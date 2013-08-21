@@ -8,15 +8,11 @@
 
 #include "Lang.h"
 
-void Lang::setText(std::string Text)
+
+void Lang::getText(std::string Text)
 {
     //std::string language = CCUserDefault::sharedUserDefault()->getStringForKey("Language");
     //if (language=="PL") {
     //CCLog(((CCString*)Lang::polski->objectForKey("Play"))->getCString());
     //}
-}
-
-void Lang::getText(std::string Text)
-{
-    
 }

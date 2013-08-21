@@ -21,15 +21,13 @@ class Lang
         CCDictionary* polski;
         CCDictionary* niemiecki;
         CCDictionary* angielski;
+    public:
         Lang()
         {
             polski = CCDictionary::createWithContentsOfFile("Polski.plist");
             niemiecki = CCDictionary::createWithContentsOfFile("Niemiecki.plist");
             angielski = CCDictionary::createWithContentsOfFile("Angielski.plist");
         }
-    public:
-
-    void setText(std::string Text);
-    static void getText(std::string Text);
+    void getText(std::string Text);
 };
 #endif /* defined(__studygame__Language__) */

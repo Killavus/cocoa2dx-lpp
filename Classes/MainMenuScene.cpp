@@ -126,7 +126,8 @@ void MainMenuScene::muteSound(cocos2d::CCObject *pSender)
 void MainMenuScene::setToPL(cocos2d::CCObject *pSender)
 {
     CCUserDefault::sharedUserDefault()->setStringForKey("Language", "PL");
-    Lang::getText("Play");
+    Lang* text = new Lang();
+    text->getText("Play");
 }
 
 void MainMenuScene::setToDE(cocos2d::CCObject *pSender)

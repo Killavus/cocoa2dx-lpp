@@ -4,5 +4,7 @@
 <dict>
 	<key>Play</key>
 	<string>Graj</string>
+	<key>Options</key>
+	<string>Opcje</string>
 </dict>
 </plist>

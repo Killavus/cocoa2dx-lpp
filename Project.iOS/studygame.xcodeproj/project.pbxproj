@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E209228F17C568600035B61B /* Angielski.plist in Resources */ = {isa = PBXBuildFile; fileRef = E209228B17C568600035B61B /* Angielski.plist */; };
+		E209229017C568600035B61B /* Niemiecki.plist in Resources */ = {isa = PBXBuildFile; fileRef = E209228C17C568600035B61B /* Niemiecki.plist */; };
+		E209229117C568600035B61B /* Polski.plist in Resources */ = {isa = PBXBuildFile; fileRef = E209228D17C568600035B61B /* Polski.plist */; };
+		E209229217C568600035B61B /* Tags.plist in Resources */ = {isa = PBXBuildFile; fileRef = E209228E17C568600035B61B /* Tags.plist */; };
 		E20CCE3B17AACD530000A2A5 /* Font in Resources */ = {isa = PBXBuildFile; fileRef = E20CCE3A17AACD530000A2A5 /* Font */; };
 		E20D0D5917A8527B006AB5C2 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = E20D0D5817A8527B006AB5C2 /* blocks.png */; };
 		E22BC36817A33ED900D4D586 /* joystick_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E22BC36617A33ED900D4D586 /* joystick_background.png */; };
@@ -34,10 +38,6 @@
 		E245316517A30F1D0000A9AE /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316417A30F1D0000A9AE /* RootViewController.mm */; };
 		E245316717A30F1D0000A9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E245316617A30F1D0000A9AE /* main.m */; };
 		E29B7A5417C54DC600D277C7 /* Lang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E29B7A5217C54DC600D277C7 /* Lang.cpp */; };
-		E29B7A5617C54E5E00D277C7 /* Tags.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5517C54E5E00D277C7 /* Tags.plist */; };
-		E29B7A5817C54E7800D277C7 /* Polski.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5717C54E7800D277C7 /* Polski.plist */; };
-		E29B7A5A17C54ECE00D277C7 /* Niemiecki.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5917C54ECE00D277C7 /* Niemiecki.plist */; };
-		E29B7A5D17C54F0300D277C7 /* Angielski.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5C17C54F0300D277C7 /* Angielski.plist */; };
 		E2B154C517BFA2020000A1BF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */; };
 		E2B154C617BFA2020000A1BF /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AF17BFA2020000A1BF /* ContactListener.cpp */; };
 		E2B154C717BFA2020000A1BF /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B117BFA2020000A1BF /* GameWorldScene.cpp */; };
@@ -382,6 +382,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E209228B17C568600035B61B /* Angielski.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Angielski.plist; sourceTree = "<group>"; };
+		E209228C17C568600035B61B /* Niemiecki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Niemiecki.plist; sourceTree = "<group>"; };
+		E209228D17C568600035B61B /* Polski.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Polski.plist; sourceTree = "<group>"; };
+		E209228E17C568600035B61B /* Tags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tags.plist; sourceTree = "<group>"; };
 		E20CCE3A17AACD530000A2A5 /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
 		E20D0D5817A8527B006AB5C2 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
 		E22BC36617A33ED900D4D586 /* joystick_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_background.png; path = Resources/joystick_background.png; sourceTree = "<group>"; };
@@ -415,10 +419,6 @@
 		E24534D617A30F230000A9AE /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		E29B7A5217C54DC600D277C7 /* Lang.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lang.cpp; sourceTree = "<group>"; };
 		E29B7A5317C54DC600D277C7 /* Lang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lang.h; sourceTree = "<group>"; };
-		E29B7A5517C54E5E00D277C7 /* Tags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Tags.plist; path = Properties/Tags.plist; sourceTree = "<group>"; };
-		E29B7A5717C54E7800D277C7 /* Polski.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Polski.plist; path = Properties/Polski.plist; sourceTree = "<group>"; };
-		E29B7A5917C54ECE00D277C7 /* Niemiecki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Niemiecki.plist; sourceTree = "<group>"; };
-		E29B7A5C17C54F0300D277C7 /* Angielski.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Angielski.plist; sourceTree = "<group>"; };
 		E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		E2B154AE17BFA2020000A1BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2B154AF17BFA2020000A1BF /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContactListener.cpp; sourceTree = "<group>"; };
@@ -1155,6 +1155,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E209228A17C568600035B61B /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				E209228B17C568600035B61B /* Angielski.plist */,
+				E209228C17C568600035B61B /* Niemiecki.plist */,
+				E209228D17C568600035B61B /* Polski.plist */,
+				E209228E17C568600035B61B /* Tags.plist */,
+			);
+			name = Properties;
+			path = ../../Resources/Properties;
+			sourceTree = "<group>";
+		};
 		E245312A17A30F1D0000A9AE = {
 			isa = PBXGroup;
 			children = (
@@ -1202,6 +1214,7 @@
 		E245314717A30F1D0000A9AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E209228A17C568600035B61B /* Properties */,
 				E2CC5BF817C5130A00D0210E /* Published-iOS */,
 				E20CCE3A17AACD530000A2A5 /* Font */,
 				E245314817A30F1D0000A9AE /* CloseNormal.png */,
@@ -1272,10 +1285,6 @@
 				E2B154C417BFA2020000A1BF /* PhysicsWorldScene.h */,
 				E29B7A5217C54DC600D277C7 /* Lang.cpp */,
 				E29B7A5317C54DC600D277C7 /* Lang.h */,
-				E29B7A5517C54E5E00D277C7 /* Tags.plist */,
-				E29B7A5717C54E7800D277C7 /* Polski.plist */,
-				E29B7A5917C54ECE00D277C7 /* Niemiecki.plist */,
-				E29B7A5C17C54F0300D277C7 /* Angielski.plist */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -2721,28 +2730,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E245315917A30F1D0000A9AE /* Icon.png in Resources */,
-				E29B7A5A17C54ECE00D277C7 /* Niemiecki.plist in Resources */,
 				E245314917A30F1D0000A9AE /* CloseNormal.png in Resources */,
 				E245315517A30F1D0000A9AE /* Icon-Small.png in Resources */,
 				E2CC5BC217C50AC700D0210E /* chipmunk-docs.html in Resources */,
 				E22BC36917A33ED900D4D586 /* joystick_thumb.png in Resources */,
 				E2CC5A9A17C50A9000D0210E /* CMakeLists.txt in Resources */,
+				E209228F17C568600035B61B /* Angielski.plist in Resources */,
 				E20CCE3B17AACD530000A2A5 /* Font in Resources */,
 				E245315117A30F1D0000A9AE /* Icon-72.png in Resources */,
 				E245314F17A30F1D0000A9AE /* HelloWorld.png in Resources */,
 				E245315317A30F1D0000A9AE /* Icon-Small-50.png in Resources */,
 				E245315D17A30F1D0000A9AE /* iTunesArtwork in Resources */,
 				E2CC5BC617C50AC700D0210E /* CMakeLists.txt in Resources */,
+				E209229217C568600035B61B /* Tags.plist in Resources */,
 				E245315717A30F1D0000A9AE /* Icon-Small@2x.png in Resources */,
-				E29B7A5617C54E5E00D277C7 /* Tags.plist in Resources */,
 				E2CC5BEF17C50AC700D0210E /* AudioEngine.lua in Resources */,
 				E245314D17A30F1D0000A9AE /* Default.png in Resources */,
 				E2CC5BC317C50AC700D0210E /* LICENSE.txt in Resources */,
-				E29B7A5D17C54F0300D277C7 /* Angielski.plist in Resources */,
 				E2CC5A9917C50A9000D0210E /* ChangeLog in Resources */,
 				E2CC5C0517C5239C00D0210E /* Logic in Resources */,
+				E209229017C568600035B61B /* Niemiecki.plist in Resources */,
 				E2CC5BC417C50AC700D0210E /* README.txt in Resources */,
-				E29B7A5817C54E7800D277C7 /* Polski.plist in Resources */,
 				E245314B17A30F1D0000A9AE /* CloseSelected.png in Resources */,
 				E2F1D6FA17AEE005005F4B58 /* hello.lua in Resources */,
 				E2CC5BF017C50AC700D0210E /* CCBReaderLoad.lua in Resources */,
@@ -2750,6 +2758,7 @@
 				E2CC5BF917C5130A00D0210E /* Published-iOS in Resources */,
 				E22BC36817A33ED900D4D586 /* joystick_background.png in Resources */,
 				E20D0D5917A8527B006AB5C2 /* blocks.png in Resources */,
+				E209229117C568600035B61B /* Polski.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
