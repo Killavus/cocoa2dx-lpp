@@ -110,7 +110,7 @@ void PsysicsWorld::initPhysics()
      
      */
     b2BodyDef myBodyDef;
-    myBodyDef.type = b2_dynamicBody;
+    myBodyDef.type = b2_kinematicBody;
     myBodyDef.position.Set(0, 0);
     b2Body* staticBody = world->CreateBody(&myBodyDef);
     

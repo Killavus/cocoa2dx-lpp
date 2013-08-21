@@ -29,7 +29,7 @@ void CContactListener::BeginContact(b2Contact* contact)
     b2Fixture* figure1 = contact->GetFixtureA();
     b2Fixture* figure2 = contact->GetFixtureB();
     CCLOG("%d, %d",figure1->GetType(),figure2->GetType());
-    if (figure1->GetType()==figure2->GetType()){
+    if (((CCSprite*)figure2->GetUserData())->getTag()==121){
         std::string path = CCFileUtils::sharedFileUtils()->fullPathForFilename("hello.lua");
         pEngine->executeScriptFile(path.c_str());
     }

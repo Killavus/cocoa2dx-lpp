@@ -19,6 +19,7 @@ Npc::Npc()
 
 void Npc::setWorld(b2World * world)
 {
+    this->setTag(121);
     m_pWorld = world;
     // Define the dynamic body.
     //Set up a 1m squared box in the physics world
@@ -38,6 +39,7 @@ void Npc::setWorld(b2World * world)
     fixtureDef.shape = &dynamicBox;
     fixtureDef.density = 1.0f;
     fixtureDef.friction = 0.3f;
+    fixtureDef.userData = this;
     m_pBody->CreateFixture(&fixtureDef);
 }
 

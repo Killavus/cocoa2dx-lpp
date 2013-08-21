@@ -19,11 +19,12 @@ Hero::Hero()
 
 void Hero::setWorld(b2World * world)
 {
+    this->setTag(120);
     m_pWorld = world;
     // Define the dynamic body.
     //Set up a 1m squared box in the physics world
     b2BodyDef bodyDef;
-    bodyDef.type = b2_dynamicBody;
+    bodyDef.type = b2_staticBody;
     CCSize s = CCDirector::sharedDirector()->getWinSize();
     bodyDef.position.Set(s.width/2/PTM_RATIO, s.height/2/PTM_RATIO);
     
@@ -31,10 +32,10 @@ void Hero::setWorld(b2World * world)
     
     b2Vec2 vertices[2];
     
-    vertices[0].Set(1, 1);
-    vertices[1].Set(.1,0);
-    vertices[2].Set(.0,-1);
-    vertices[3].Set(0,.5);
+    vertices[0].Set(0.2937501072883606, 0.5237499475479126);
+    vertices[1].Set(0.7512500286102295,0.5462499260902405);
+    vertices[2].Set(0.6937500238418579,0.08624997735023499);
+    vertices[3].Set(0.24625006318092346,0.026249945163726807);
 
     
     // Define another box shape for our dynamic body.
@@ -46,6 +47,7 @@ void Hero::setWorld(b2World * world)
     fixtureDef.shape = &dynamicBox;
     fixtureDef.density = 1.0f;
     fixtureDef.friction = 0.3f;
+    fixtureDef.userData = this;
     m_pBody->CreateFixture(&fixtureDef);
 }
 
