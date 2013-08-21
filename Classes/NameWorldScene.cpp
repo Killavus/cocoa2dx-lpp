@@ -57,6 +57,7 @@ void NameWorld::menuNameCallback(CCObject* pSender)
 {
     CCLOG(textInput->getString());
     
+    CCUserDefault::sharedUserDefault()->setBoolForKey("NowaGra", false);
     CCUserDefault::sharedUserDefault()->setStringForKey("NazwaPostaci", textInput->getString());
     CCLog("PressedPlay");
     CCScene *gameScene = GameWorld::scene();

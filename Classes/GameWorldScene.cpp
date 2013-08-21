@@ -29,17 +29,43 @@ bool GameWorld::init()
     }
     this->addChild(PsysicsWorld::scene());
 
-    CCLabelTTF* pLabel = CCLabelTTF::create("", "Thonburi", 34);
+    CCNodeLoaderLibrary* nodeLoaderLibrary;
+    nodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
+    CCBReader* ccbReader = new CCBReader(nodeLoaderLibrary);
+    CCNode* optionNode = ccbReader->readNodeGraphFromFile("TopMenu.ccbi",this);
+    optionNode->setTag(69);
+    this->addChild(optionNode);
+    
     std::string ret = CCUserDefault::sharedUserDefault()->getStringForKey("NazwaPostaci");
-    pLabel->setString(CCString::createWithFormat("Witaj %s",ret.c_str())->getCString());
+    nameLabel->setString(CCString::createWithFormat("%s",ret.c_str())->getCString());
     // ask director the window size
     CCSize size = CCDirector::sharedDirector()->getWinSize();
-
-    pLabel->setPosition( ccp(size.width / 2, size.height - 20) );
-
-    this->addChild(pLabel, 1);
     
     return true;
+}
+
+SEL_MenuHandler GameWorld::onResolveCCBCCMenuItemSelector(cocos2d::CCObject *pTarget, const char *pSelectorName)
+{
+
+    
+    return NULL;
+}
+
+SEL_CCControlHandler GameWorld::onResolveCCBCCControlSelector(cocos2d::CCObject *pTarget, const char *pSelectorName)
+{
+    return NULL;
+}
+
+bool GameWorld::onAssignCCBCustomProperty(cocos2d::CCObject *pTarget, const char *pMemberVariableName, cocos2d::extension::CCBValue *pCCBValue)
+{
+    return false;
+}
+
+
+bool GameWorld::onAssignCCBMemberVariable(cocos2d::CCObject *pTarget, const char *pMemberVariableName, cocos2d::CCNode *pNode)
+{
+    CCB_MEMBERVARIABLEASSIGNER_GLUE(this, "cNameLabel", CCLabelTTF*, nameLabel);
+    return false;
 }
 
 
