@@ -15,6 +15,7 @@
 #include "cocos-ext.h"
 #include "NameWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "Lang.h"
 
 using namespace cocos2d;
 using namespace cocos2d::extension;
@@ -46,6 +47,11 @@ public:
     void pressedOptionBack(cocos2d::CCObject *pSender);
     void resetGame(cocos2d::CCObject *pSender);
     void muteSound(cocos2d::CCObject *pSender);
+
+    void setToPL(cocos2d::CCObject *pSender);
+    void setToDE(cocos2d::CCObject *pSender);
+    void setToGB(cocos2d::CCObject *pSender);
+
 };
 
 #endif /* defined(__SpaceNote__MainMenuScene__) */

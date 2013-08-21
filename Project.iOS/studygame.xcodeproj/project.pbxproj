@@ -33,6 +33,11 @@
 		E245316217A30F1D0000A9AE /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316117A30F1D0000A9AE /* AppController.mm */; };
 		E245316517A30F1D0000A9AE /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E245316417A30F1D0000A9AE /* RootViewController.mm */; };
 		E245316717A30F1D0000A9AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E245316617A30F1D0000A9AE /* main.m */; };
+		E29B7A5417C54DC600D277C7 /* Lang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E29B7A5217C54DC600D277C7 /* Lang.cpp */; };
+		E29B7A5617C54E5E00D277C7 /* Tags.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5517C54E5E00D277C7 /* Tags.plist */; };
+		E29B7A5817C54E7800D277C7 /* Polski.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5717C54E7800D277C7 /* Polski.plist */; };
+		E29B7A5A17C54ECE00D277C7 /* Niemiecki.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5917C54ECE00D277C7 /* Niemiecki.plist */; };
+		E29B7A5D17C54F0300D277C7 /* Angielski.plist in Resources */ = {isa = PBXBuildFile; fileRef = E29B7A5C17C54F0300D277C7 /* Angielski.plist */; };
 		E2B154C517BFA2020000A1BF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */; };
 		E2B154C617BFA2020000A1BF /* ContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154AF17BFA2020000A1BF /* ContactListener.cpp */; };
 		E2B154C717BFA2020000A1BF /* GameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154B117BFA2020000A1BF /* GameWorldScene.cpp */; };
@@ -43,7 +48,6 @@
 		E2B154CC17BFA2020000A1BF /* MainMenuSceneLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154BB17BFA2020000A1BF /* MainMenuSceneLoader.cpp */; };
 		E2B154CD17BFA2020000A1BF /* NameWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154BD17BFA2020000A1BF /* NameWorldScene.cpp */; };
 		E2B154CE17BFA2020000A1BF /* Npc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154BF17BFA2020000A1BF /* Npc.cpp */; };
-		E2B154CF17BFA2020000A1BF /* Option.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154C117BFA2020000A1BF /* Option.cpp */; };
 		E2B154D017BFA2020000A1BF /* PhysicsWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B154C317BFA2020000A1BF /* PhysicsWorldScene.cpp */; };
 		E2CC5A4717C50A9000D0210E /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2CC57B417C50A8C00D0210E /* b2BroadPhase.cpp */; };
 		E2CC5A4817C50A9000D0210E /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2CC57B617C50A8C00D0210E /* b2CollideCircle.cpp */; };
@@ -409,6 +413,12 @@
 		E245316417A30F1D0000A9AE /* RootViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = RootViewController.mm; path = ios/RootViewController.mm; sourceTree = "<group>"; };
 		E245316617A30F1D0000A9AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = "<group>"; };
 		E24534D617A30F230000A9AE /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		E29B7A5217C54DC600D277C7 /* Lang.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lang.cpp; sourceTree = "<group>"; };
+		E29B7A5317C54DC600D277C7 /* Lang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lang.h; sourceTree = "<group>"; };
+		E29B7A5517C54E5E00D277C7 /* Tags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Tags.plist; path = Properties/Tags.plist; sourceTree = "<group>"; };
+		E29B7A5717C54E7800D277C7 /* Polski.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Polski.plist; path = Properties/Polski.plist; sourceTree = "<group>"; };
+		E29B7A5917C54ECE00D277C7 /* Niemiecki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Niemiecki.plist; sourceTree = "<group>"; };
+		E29B7A5C17C54F0300D277C7 /* Angielski.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Angielski.plist; sourceTree = "<group>"; };
 		E2B154AD17BFA2020000A1BF /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		E2B154AE17BFA2020000A1BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2B154AF17BFA2020000A1BF /* ContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ContactListener.cpp; sourceTree = "<group>"; };
@@ -429,8 +439,6 @@
 		E2B154BE17BFA2020000A1BF /* NameWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameWorldScene.h; sourceTree = "<group>"; };
 		E2B154BF17BFA2020000A1BF /* Npc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Npc.cpp; sourceTree = "<group>"; };
 		E2B154C017BFA2020000A1BF /* Npc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Npc.h; sourceTree = "<group>"; };
-		E2B154C117BFA2020000A1BF /* Option.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Option.cpp; sourceTree = "<group>"; };
-		E2B154C217BFA2020000A1BF /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option.h; sourceTree = "<group>"; };
 		E2B154C317BFA2020000A1BF /* PhysicsWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhysicsWorldScene.cpp; sourceTree = "<group>"; };
 		E2B154C417BFA2020000A1BF /* PhysicsWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsWorldScene.h; sourceTree = "<group>"; };
 		E2CC57B217C50A8C00D0210E /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
@@ -1260,10 +1268,14 @@
 				E2B154BE17BFA2020000A1BF /* NameWorldScene.h */,
 				E2B154BF17BFA2020000A1BF /* Npc.cpp */,
 				E2B154C017BFA2020000A1BF /* Npc.h */,
-				E2B154C117BFA2020000A1BF /* Option.cpp */,
-				E2B154C217BFA2020000A1BF /* Option.h */,
 				E2B154C317BFA2020000A1BF /* PhysicsWorldScene.cpp */,
 				E2B154C417BFA2020000A1BF /* PhysicsWorldScene.h */,
+				E29B7A5217C54DC600D277C7 /* Lang.cpp */,
+				E29B7A5317C54DC600D277C7 /* Lang.h */,
+				E29B7A5517C54E5E00D277C7 /* Tags.plist */,
+				E29B7A5717C54E7800D277C7 /* Polski.plist */,
+				E29B7A5917C54ECE00D277C7 /* Niemiecki.plist */,
+				E29B7A5C17C54F0300D277C7 /* Angielski.plist */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -2709,6 +2721,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E245315917A30F1D0000A9AE /* Icon.png in Resources */,
+				E29B7A5A17C54ECE00D277C7 /* Niemiecki.plist in Resources */,
 				E245314917A30F1D0000A9AE /* CloseNormal.png in Resources */,
 				E245315517A30F1D0000A9AE /* Icon-Small.png in Resources */,
 				E2CC5BC217C50AC700D0210E /* chipmunk-docs.html in Resources */,
@@ -2721,12 +2734,15 @@
 				E245315D17A30F1D0000A9AE /* iTunesArtwork in Resources */,
 				E2CC5BC617C50AC700D0210E /* CMakeLists.txt in Resources */,
 				E245315717A30F1D0000A9AE /* Icon-Small@2x.png in Resources */,
+				E29B7A5617C54E5E00D277C7 /* Tags.plist in Resources */,
 				E2CC5BEF17C50AC700D0210E /* AudioEngine.lua in Resources */,
 				E245314D17A30F1D0000A9AE /* Default.png in Resources */,
 				E2CC5BC317C50AC700D0210E /* LICENSE.txt in Resources */,
+				E29B7A5D17C54F0300D277C7 /* Angielski.plist in Resources */,
 				E2CC5A9917C50A9000D0210E /* ChangeLog in Resources */,
 				E2CC5C0517C5239C00D0210E /* Logic in Resources */,
 				E2CC5BC417C50AC700D0210E /* README.txt in Resources */,
+				E29B7A5817C54E7800D277C7 /* Polski.plist in Resources */,
 				E245314B17A30F1D0000A9AE /* CloseSelected.png in Resources */,
 				E2F1D6FA17AEE005005F4B58 /* hello.lua in Resources */,
 				E2CC5BF017C50AC700D0210E /* CCBReaderLoad.lua in Resources */,
@@ -2841,6 +2857,7 @@
 				E2CC5B1C17C50A9100D0210E /* CCComController.cpp in Sources */,
 				E2CC5A6317C50A9000D0210E /* b2ContactSolver.cpp in Sources */,
 				E2CC5B3C17C50A9100D0210E /* AnimationStateData.cpp in Sources */,
+				E29B7A5417C54DC600D277C7 /* Lang.cpp in Sources */,
 				E2CC5AC117C50A9000D0210E /* CCApplication.mm in Sources */,
 				E2CC5BDB17C50AC700D0210E /* cpSpace.c in Sources */,
 				E2CC5AC917C50A9000D0210E /* CCLock.cpp in Sources */,
@@ -2862,7 +2879,6 @@
 				E2CC5B0917C50A9100D0210E /* CCControlButtonLoader.cpp in Sources */,
 				E2CC5AFA17C50A9100D0210E /* CCTouchDispatcher.cpp in Sources */,
 				E2CC5B1717C50A9100D0210E /* CCScale9SpriteLoader.cpp in Sources */,
-				E2B154CF17BFA2020000A1BF /* Option.cpp in Sources */,
 				E2CC5AC017C50A9000D0210E /* CCAccelerometer.mm in Sources */,
 				E2CC5AAC17C50A9000D0210E /* CCLayer.cpp in Sources */,
 				E2CC5A5217C50A9000D0210E /* b2PolygonShape.cpp in Sources */,

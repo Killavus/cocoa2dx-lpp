@@ -35,8 +35,9 @@ SEL_MenuHandler MainMenuScene::onResolveCCBCCMenuItemSelector(cocos2d::CCObject 
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedOptionBack:", MainMenuScene::pressedOptionBack);
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedResetGame:", MainMenuScene::resetGame);
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "muteSound:", MainMenuScene::muteSound);
-
-
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "setToPL:", MainMenuScene::setToPL);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "setToDE:", MainMenuScene::setToDE);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "setToGB:", MainMenuScene::setToGB);
     return NULL;
 }
 
@@ -84,13 +85,11 @@ void MainMenuScene::pressedPlay(cocos2d::CCObject *pSender)
     bool firstGame = CCUserDefault::sharedUserDefault()->getBoolForKey("NowaGra");
     if (firstGame)
     {
-        CCLog("PressedPlay");
         CCScene *gameScene = GameWorld::scene();
         CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));
     }
     else
     {
-        CCLog("PressedPlay");
         CCScene *gameScene = NameWorld::scene();
         CCDirector::sharedDirector()->replaceScene(CCTransitionFade::create(0.5f,gameScene));    
     }
@@ -98,7 +97,6 @@ void MainMenuScene::pressedPlay(cocos2d::CCObject *pSender)
 
 void MainMenuScene::pressedOption(cocos2d::CCObject *pSender)
 {
-    CCLog("działa");
     CCNodeLoaderLibrary* nodeLoaderLibrary;
     nodeLoaderLibrary = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
     
@@ -125,3 +123,18 @@ void MainMenuScene::muteSound(cocos2d::CCObject *pSender)
     CocosDenshion::SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
 }
 
+void MainMenuScene::setToPL(cocos2d::CCObject *pSender)
+{
+    CCUserDefault::sharedUserDefault()->setStringForKey("Language", "PL");
+    Lang::getText("Play");
+}
+
+void MainMenuScene::setToDE(cocos2d::CCObject *pSender)
+{
+    CCUserDefault::sharedUserDefault()->setStringForKey("Language", "DE");
+}
+
+void MainMenuScene::setToGB(cocos2d::CCObject *pSender)
+{
+    CCUserDefault::sharedUserDefault()->setStringForKey("Language", "GB");
+}

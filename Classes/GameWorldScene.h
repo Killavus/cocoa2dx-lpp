@@ -5,6 +5,7 @@
 #include "cocos-ext.h"
 #include "Joystick.h"
 #include "PhysicsWorldScene.h"
+//#include "Logic/Player.h"
 
 using namespace cocos2d;
 using namespace cocos2d::extension;

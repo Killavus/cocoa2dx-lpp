@@ -7,11 +7,11 @@
 		<key>Graphics/DE.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 102}, {24, 16}}</string>
+			<string>{{92, 1}, {24, 16}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {24, 16}}</string>
 			<key>sourceSize</key>
@@ -20,11 +20,11 @@
 		<key>Graphics/GB.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 76}, {24, 16}}</string>
+			<string>{{66, 1}, {24, 16}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {24, 16}}</string>
 			<key>sourceSize</key>
@@ -33,11 +33,11 @@
 		<key>Graphics/PL.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 50}, {24, 16}}</string>
+			<string>{{40, 1}, {24, 16}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {24, 16}}</string>
 			<key>sourceSize</key>
@@ -46,11 +46,11 @@
 		<key>Graphics/blank_background.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 128}, {-127, -26}}</string>
+			<string>{{118, 9}, {-127, -26}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{127, 26}, {-127, -26}}</string>
 			<key>sourceSize</key>
@@ -59,7 +59,7 @@
 		<key>Graphics/facebook.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{19, 65}, {13, 13}}</string>
+			<string>{{55, 19}, {13, 13}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -72,11 +72,11 @@
 		<key>Graphics/nosound.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{19, 94}, {6, 9}}</string>
+			<string>{{118, 1}, {6, 9}}</string>
 			<key>offset</key>
 			<string>{-3, 0}</string>
 			<key>rotated</key>
-			<false/>
+			<true/>
 			<key>sourceColorRect</key>
 			<string>{{0, 1}, {6, 9}}</string>
 			<key>sourceSize</key>
@@ -85,24 +85,24 @@
 		<key>Graphics/options_bt_active.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1}, {44, 47}}</string>
+			<string>{{1, 1}, {37, 36}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0, 0}, {44, 47}}</string>
+			<string>{{0, 0}, {37, 36}}</string>
 			<key>sourceSize</key>
-			<string>{44, 47}</string>
+			<string>{37, 36}</string>
 		</dict>
 		<key>Graphics/sound.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{19, 80}, {12, 11}}</string>
+			<string>{{70, 19}, {12, 11}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {12, 11}}</string>
 			<key>sourceSize</key>
@@ -111,7 +111,7 @@
 		<key>Graphics/twitter.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{19, 50}, {13, 13}}</string>
+			<string>{{40, 19}, {13, 13}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>

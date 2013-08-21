@@ -44,6 +44,7 @@ bool GameWorld::init()
     isComplited=true;
     setView=true;
     
+    //Player* Robcio = new Player("Robio","Student");
     return true;
 }
 
