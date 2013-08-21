@@ -561,9 +561,9 @@
 						<key>displayName</key>
 						<string>CCMenuItemImage</string>
 						<key>memberVarAssignmentName</key>
-						<string></string>
+						<string>cSoundItem</string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -617,8 +617,8 @@
 								<string>Block</string>
 								<key>value</key>
 								<array>
-									<string></string>
-									<integer>0</integer>
+									<string>muteSound:</string>
+									<integer>1</integer>
 								</array>
 							</dict>
 							<dict>
@@ -659,10 +659,12 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string></string>
+									<string>Graphics/nosound.png</string>
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -1389,7 +1391,7 @@
 						<key>type</key>
 						<string>Text</string>
 						<key>value</key>
-						<string>Version 0.0.1</string>
+						<string>Version 0.0.3</string>
 					</dict>
 				</array>
 			</dict>

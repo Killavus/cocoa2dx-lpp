@@ -33,13 +33,12 @@ void Hero::setWorld(b2World * world)
     
     m_pBody = m_pWorld->CreateBody(&bodyDef);
     
-    b2Vec2 vertices[3];
-    
-    vertices[0].Set(0.24124997854232788,0.14125007390975952);
-    vertices[1].Set(0.5487499237060547,-0.028749942779541016);
-    vertices[2].Set(0.7887499928474426,0.4962500035762787);
-    vertices[3].Set(0.3162500262260437,0.5537500381469727);
-
+    b2Vec2 vertices[] = {
+        b2Vec2(20.5f / PTM_RATIO, -20.6f / PTM_RATIO),
+        b2Vec2(20.8f / PTM_RATIO, 20.0f / PTM_RATIO),
+        b2Vec2(-20.9f / PTM_RATIO, 20.3f / PTM_RATIO),
+        b2Vec2(-20.5f / PTM_RATIO, -20.8f / PTM_RATIO)
+    };
     
     // Define another box shape for our dynamic body.
     b2PolygonShape dynamicBox;
@@ -70,6 +69,7 @@ void Hero::update(float dt)
     // set ball velocity by Joystick
     if(vx<0) {
         this->setFlipX(true);
+        
     } else if(vx>0) {
         this->setFlipX(false);
     }

@@ -34,6 +34,7 @@ SEL_MenuHandler MainMenuScene::onResolveCCBCCMenuItemSelector(cocos2d::CCObject 
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedOption:", MainMenuScene::pressedOption);
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedOptionBack:", MainMenuScene::pressedOptionBack);
     CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedResetGame:", MainMenuScene::resetGame);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "muteSound:", MainMenuScene::muteSound);
 
 
     return NULL;
@@ -52,6 +53,7 @@ bool MainMenuScene::onAssignCCBCustomProperty(cocos2d::CCObject *pTarget, const 
 
 bool MainMenuScene::onAssignCCBMemberVariable(cocos2d::CCObject *pTarget, const char *pMemberVariableName, cocos2d::CCNode *pNode)
 {
+    CCB_MEMBERVARIABLEASSIGNER_GLUE(this, "cSoundItem", CCMenuItem*, soundItem);
     //CCB_MEMBERVARIABLEASSIGNER_GLUE(this, "cPlayLabel", CCLabelTTF*, playLabel);
     return false;
 }
@@ -114,8 +116,12 @@ void MainMenuScene::pressedOptionBack(cocos2d::CCObject *pSender)
 
 void MainMenuScene::resetGame(cocos2d::CCObject *pSender)
 {
-    CCLog("działa");
-
     CCUserDefault::sharedUserDefault()->setBoolForKey("NowaGra", false);
+}
+
+void MainMenuScene::muteSound(cocos2d::CCObject *pSender)
+{
+    soundItem->setEnabled(false);
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
 }
 

@@ -23,7 +23,7 @@ class MainMenuScene : public cocos2d::CCLayer,public cocos2d::extension::CCBMemb
 {
 private:
     CCLabelTTF* playLabel;
-    
+    CCMenuItem* soundItem;
 public:
     static CCScene* scene();
     CCB_STATIC_NEW_AUTORELEASE_OBJECT_WITH_INIT_METHOD(MainMenuScene, create);
@@ -45,7 +45,7 @@ public:
     void pressedOption(cocos2d::CCObject *pSender);
     void pressedOptionBack(cocos2d::CCObject *pSender);
     void resetGame(cocos2d::CCObject *pSender);
-
+    void muteSound(cocos2d::CCObject *pSender);
 };
 
 #endif /* defined(__SpaceNote__MainMenuScene__) */
